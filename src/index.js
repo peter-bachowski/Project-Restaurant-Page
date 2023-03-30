@@ -1,6 +1,6 @@
-import sayHello from "./hello";
 import './styles/main.scss';
+import createHeaderAndFooter from './createHeaderAndFooter';
 
-const contentDiv = getElementById("content");
+const contentDiv = document.getElementById("content");
 
-contentDiv.innerText(sayHello());
+createHeaderAndFooter();

@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "keywords": [],
   "author": "Peter Bachowski",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
+    "lodash": "^4.17.21",
     "node-fetch": "^3.2.6",
     "prettier": "^2.8.7",
     "webpack": "^5.76.3"
