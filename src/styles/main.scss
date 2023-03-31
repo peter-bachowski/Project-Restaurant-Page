@@ -4,18 +4,23 @@ $primary-color: #2fa8cc;
 $secondary-color: #f4f4f4;
 $box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
 $background-width: 100%;
+$content-height: 500px;
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html, body, #container {
     height: 100%;
     padding: 0;
     margin: 0;
 }
 
-#content {
+#container {
+    position: relative;
+}
+
+#contentDiv {
     background-image: url(../images/pizza-background.jpg);
     background-size: $background-width auto;
     background-repeat: no-repeat;
@@ -24,7 +29,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 500px;
     padding: 0;
     margin: 0;
 }
@@ -32,12 +37,15 @@ html, body {
 .header, .footer {
     width: 100%;
     background-color: $primary-color;
+    position: absolute;
 }
 
 .header {
     height: 50px;
+    top: 0;
 }
 
 .footer {
     height: 100px;
+    bottom: 0;
 }

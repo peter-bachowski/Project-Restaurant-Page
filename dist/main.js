@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nhtml, body {\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n\n#content {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  font-family: \"Roboto\", sans-serif;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n\n.header, .footer {\n  width: 100%;\n  background-color: #2fa8cc;\n}\n\n.header {\n  height: 50px;\n}\n\n.footer {\n  height: 100px;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAOA;EACI,sBAAA;AALJ;;AAQA;EACI,YAAA;EACA,UAAA;EACA,SAAA;AALJ;;AAQA;EACI,yDAAA;EACA,0BAAA;EACA,4BAAA;EACA,iCAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,YAAA;EACA,UAAA;EACA,SAAA;AALJ;;AAQA;EACI,WAAA;EACA,yBA/BY;AA0BhB;;AAQA;EACI,YAAA;AALJ;;AAQA;EACI,aAAA;AALJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n\n$primary-color: #2fa8cc;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n\n* {\n    box-sizing: border-box;\n}\n\nhtml, body {\n    height: 100%;\n    padding: 0;\n    margin: 0;\n}\n\n#content {\n    background-image: url(../images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    font-family: 'Roboto', sans-serif;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    height: 100%;\n    padding: 0;\n    margin: 0;\n}\n\n.header, .footer {\n    width: 100%;\n    background-color: $primary-color;\n}\n\n.header {\n    height: 50px;\n}\n\n.footer {\n    height: 100px;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nhtml, body, #container {\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n\n#container {\n  position: relative;\n}\n\n#contentDiv {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  font-family: \"Roboto\", sans-serif;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 500px;\n  padding: 0;\n  margin: 0;\n}\n\n.header, .footer {\n  width: 100%;\n  background-color: #2fa8cc;\n  position: absolute;\n}\n\n.header {\n  height: 50px;\n  top: 0;\n}\n\n.footer {\n  height: 100px;\n  bottom: 0;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAQA;EACI,sBAAA;AANJ;;AASA;EACI,YAAA;EACA,UAAA;EACA,SAAA;AANJ;;AASA;EACI,kBAAA;AANJ;;AASA;EACI,yDAAA;EACA,0BAAA;EACA,4BAAA;EACA,iCAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,aAAA;EACA,UAAA;EACA,SAAA;AANJ;;AASA;EACI,WAAA;EACA,yBApCY;EAqCZ,kBAAA;AANJ;;AASA;EACI,YAAA;EACA,MAAA;AANJ;;AASA;EACI,aAAA;EACA,SAAA;AANJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n\n$primary-color: #2fa8cc;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n\n* {\n    box-sizing: border-box;\n}\n\nhtml, body, #container {\n    height: 100%;\n    padding: 0;\n    margin: 0;\n}\n\n#container {\n    position: relative;\n}\n\n#contentDiv {\n    background-image: url(../images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    font-family: 'Roboto', sans-serif;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    height: 500px;\n    padding: 0;\n    margin: 0;\n}\n\n.header, .footer {\n    width: 100%;\n    background-color: $primary-color;\n    position: absolute;\n}\n\n.header {\n    height: 50px;\n    top: 0;\n}\n\n.footer {\n    height: 100px;\n    bottom: 0;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -519,19 +519,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-function createHeaderAndFooter (){
-    
+function createHeaderAndFooter (content){
     const header = document.createElement("div");
     const footer = document.createElement("div");
-
-    header.classList.add(".header");
-    footer.classList.add(".footer");
-
+    
+    header.classList.add("header");
+    footer.classList.add("footer");
+    
     header.innerText = "Hello";
     footer.innerText = "Goodbye";
-
-    document.getElementById("content").appendChild(header);
-    document.getElementById("content").appendChild(footer);
+    
+    content.appendChild(header);
+    content.appendChild(footer);
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHeaderAndFooter);
@@ -694,9 +693,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const contentDiv = document.getElementById("content");
+const containerDiv = document.getElementById("container");
+const contentDiv = document.createElement("div");
 
-(0,_createHeaderAndFooter__WEBPACK_IMPORTED_MODULE_1__["default"])();
+contentDiv.id = "contentDiv";
+
+containerDiv.appendChild(contentDiv);
+(0,_createHeaderAndFooter__WEBPACK_IMPORTED_MODULE_1__["default"])(containerDiv);
+
+window.addEventListener("resize", () => {
+    if (window.innerWidth <= 500) {
+        contentDiv.style.height = "250px";
+    }
+
+});
+
+
+
 })();
 
 /******/ })()
