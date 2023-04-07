@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\nhtml, body, #container {\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n\n#container {\n  position: relative;\n}\n\n#contentDiv {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  font-family: \"Roboto\", sans-serif;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 500px;\n  padding: 0;\n  margin: 0;\n}\n\n.header, .footer {\n  width: 100%;\n  background-color: #2fa8cc;\n  position: absolute;\n}\n\n.header {\n  height: 50px;\n  top: 0;\n}\n\n.footer {\n  height: 100px;\n  bottom: 0;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAQA;EACI,sBAAA;AANJ;;AASA;EACI,YAAA;EACA,UAAA;EACA,SAAA;AANJ;;AASA;EACI,kBAAA;AANJ;;AASA;EACI,yDAAA;EACA,0BAAA;EACA,4BAAA;EACA,iCAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,aAAA;EACA,UAAA;EACA,SAAA;AANJ;;AASA;EACI,WAAA;EACA,yBApCY;EAqCZ,kBAAA;AANJ;;AASA;EACI,YAAA;EACA,MAAA;AANJ;;AASA;EACI,aAAA;EACA,SAAA;AANJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n\n$primary-color: #2fa8cc;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n\n* {\n    box-sizing: border-box;\n}\n\nhtml, body, #container {\n    height: 100%;\n    padding: 0;\n    margin: 0;\n}\n\n#container {\n    position: relative;\n}\n\n#contentDiv {\n    background-image: url(../images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    font-family: 'Roboto', sans-serif;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    height: 500px;\n    padding: 0;\n    margin: 0;\n}\n\n.header, .footer {\n    width: 100%;\n    background-color: $primary-color;\n    position: absolute;\n}\n\n.header {\n    height: 50px;\n    top: 0;\n}\n\n.footer {\n    height: 100px;\n    bottom: 0;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: \"Roboto\", sans-serif;\n}\n\nhtml, body, #container {\n  height: 100%;\n  min-width: 375px;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer {\n  width: 100%;\n  background-color: #3b3430;\n  min-height: 250px;\n}\n\n#mainContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  min-height: 500px;\n  color: #f4f4f4;\n}\n\n#mainContent2 {\n  min-height: 500px;\n}\n\n.navBar, .navMenu {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.navBar {\n  justify-content: space-between;\n  padding-left: 100px;\n  padding-right: 100px;\n  padding-top: 50px;\n}\n\n.navMenu {\n  justify-content: center;\n  gap: 10px;\n  font-size: 20px;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\n.pageTitle {\n  font-size: 20px;\n  font-weight: 700;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAQA;EACI,sBAAA;EACA,iCAAA;AANJ;;AASA;EACI,YAAA;EACA,gBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;AANJ;;AASA;EACI,WAAA;EACA,yBAtBY;EAuBZ,iBAAA;AANJ;;AASA;EACI,oHAAA;EACA,0BAAA;EACA,4BAAA;EACA,iBAAA;EACA,cA9Bc;AAwBlB;;AASA;EACI,iBAAA;AANJ;;AASA;EACI,aAAA;EACA,eAAA;AANJ;;AASA;EACI,8BAAA;EACA,mBAAA;EACA,oBAAA;EACA,iBAAA;AANJ;;AASA;EACI,uBAAA;EACA,SAAA;EACA,eAAA;AANJ;;AASA;EACI,qBAAA;EACA,cAAA;AANJ;;AASA;EACI,eAAA;EACA,gBAAA;AANJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n\n$primary-color: #3b3430;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n\n* {\n    box-sizing: border-box;\n    font-family: 'Roboto', sans-serif;\n}\n\nhtml, body, #container {\n    height: 100%;\n    min-width: 375px;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.footer {\n    width: 100%;\n    background-color: $primary-color;\n    min-height: 250px;\n}\n\n#mainContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    min-height: 500px;\n    color: $secondary-color;\n}\n\n#mainContent2 {\n    min-height: 500px;\n}\n\n.navBar, .navMenu {\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.navBar {\n    justify-content: space-between;\n    padding-left: 100px;\n    padding-right: 100px;\n    padding-top: 50px;\n}\n\n.navMenu {\n    justify-content: center;\n    gap: 10px;\n    font-size: 20px;\n}\n\na {\n    text-decoration: none;\n    color: inherit;\n}\n\n.pageTitle {\n    font-size: 20px;\n    font-weight: 700;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -509,31 +509,91 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/createHeaderAndFooter.js":
-/*!**************************************!*\
-  !*** ./src/createHeaderAndFooter.js ***!
-  \**************************************/
+/***/ "./src/addPageBaseElements.js":
+/*!************************************!*\
+  !*** ./src/addPageBaseElements.js ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-function createHeaderAndFooter (content){
-    const header = document.createElement("div");
-    const footer = document.createElement("div");
+function addPageBaseElements () {
+    const containerDiv = document.getElementById('container');
+    const footer = document.createElement('div');
+    const mainContent1 = document.createElement('div');
+    const mainContent2 = document.createElement('div');
+
+    mainContent1.id = 'mainContent1';
+    mainContent2.id = 'mainContent2';
+
+    footer.classList.add('footer');
     
-    header.classList.add("header");
-    footer.classList.add("footer");
+    footer.innerText = 'Goodbye';
     
-    header.innerText = "Hello";
-    footer.innerText = "Goodbye";
-    
-    content.appendChild(header);
-    content.appendChild(footer);
+    containerDiv.appendChild(mainContent1);
+    containerDiv.appendChild(mainContent2);
+    containerDiv.appendChild(footer);
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHeaderAndFooter);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addPageBaseElements);
+
+/***/ }),
+
+/***/ "./src/adjustSizeOnload.js":
+/*!*********************************!*\
+  !*** ./src/adjustSizeOnload.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function adjustSizeOnload () {
+    window.onload = () => {
+        if (window.innerWidth <= 750) {
+            mainContent1.style.minHeight = '250px';
+        }
+        else {
+            mainContent1.style.minHeight = '500px';
+        }
+
+    };
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (adjustSizeOnload);
+
+
+
+/***/ }),
+
+/***/ "./src/resizeContentDiv.js":
+/*!*********************************!*\
+  !*** ./src/resizeContentDiv.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function resizeContent () {
+    window.addEventListener('resize', () => {
+        if (window.innerWidth <= 750) {
+            mainContent1.style.minHeight = '250px';
+        }
+        else {
+            mainContent1.style.minHeight = '500px';
+        }
+
+    });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (resizeContent);
+
+
 
 /***/ }),
 
@@ -689,24 +749,52 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
-/* harmony import */ var _createHeaderAndFooter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./createHeaderAndFooter */ "./src/createHeaderAndFooter.js");
+/* harmony import */ var _addPageBaseElements__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./addPageBaseElements */ "./src/addPageBaseElements.js");
+/* harmony import */ var _resizeContentDiv__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./resizeContentDiv */ "./src/resizeContentDiv.js");
+/* harmony import */ var _adjustSizeOnload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./adjustSizeOnload */ "./src/adjustSizeOnload.js");
 
 
 
-const containerDiv = document.getElementById("container");
-const contentDiv = document.createElement("div");
 
-contentDiv.id = "contentDiv";
 
-containerDiv.appendChild(contentDiv);
-(0,_createHeaderAndFooter__WEBPACK_IMPORTED_MODULE_1__["default"])(containerDiv);
+(0,_addPageBaseElements__WEBPACK_IMPORTED_MODULE_1__["default"])();
+(0,_adjustSizeOnload__WEBPACK_IMPORTED_MODULE_3__["default"])();
+(0,_resizeContentDiv__WEBPACK_IMPORTED_MODULE_2__["default"])();
 
-window.addEventListener("resize", () => {
-    if (window.innerWidth <= 500) {
-        contentDiv.style.height = "250px";
-    }
+const navBar = document.createElement('div');
+const navMenu = document.createElement('div');
+const pageTitle = document.createElement('div');
+const homeLink = document.createElement('a');
+const menuLink = document.createElement('a');
+const aboutLink = document.createElement('a');
+const logo = document.createElement('img');
 
-});
+navBar.classList.add('navBar');
+navMenu.classList.add('navMenu');
+pageTitle.classList.add('pageTitle');
+homeLink.classList.add('homeLink');
+menuLink.classList.add('menuLink');
+aboutLink.classList.add('aboutLink');
+logo.src = './images/space-needle.png';
+
+homeLink.href = './index.html';
+menuLink.href = '';
+aboutLink.href = '';
+
+pageTitle.innerText = 'Slice of Seattle';
+pageTitle.appendChild(logo);
+
+homeLink.innerText = 'Home';
+menuLink.innerText = 'Menu';
+aboutLink.innerText = 'About';
+
+document.getElementById('mainContent1').appendChild(navBar);
+
+navBar.appendChild(pageTitle);
+navBar.appendChild(navMenu);
+navMenu.appendChild(homeLink);
+navMenu.appendChild(menuLink);
+navMenu.appendChild(aboutLink);
 
 
 
