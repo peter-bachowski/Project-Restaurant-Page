@@ -22,12 +22,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/pizza-background.jpg */ "./src/images/pizza-background.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/pizza-background.jpg */ "./src/assets/images/pizza-background.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/space-needle.png */ "./src/assets/images/space-needle.png"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: \"Roboto\", sans-serif;\n}\n\nhtml, body, #container {\n  height: 100%;\n  min-width: 375px;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer {\n  width: 100%;\n  background-color: #3b3430;\n  min-height: 250px;\n}\n\n#mainContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  min-height: 500px;\n  color: #f4f4f4;\n}\n\n#mainContent2 {\n  min-height: 500px;\n}\n\n.navBar, .navMenu {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.navBar {\n  justify-content: space-between;\n  padding-left: 100px;\n  padding-right: 100px;\n  padding-top: 50px;\n}\n\n.navMenu {\n  justify-content: center;\n  gap: 10px;\n  font-size: 20px;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\n.pageTitle {\n  font-size: 20px;\n  font-weight: 700;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAQA;EACI,sBAAA;EACA,iCAAA;AANJ;;AASA;EACI,YAAA;EACA,gBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;AANJ;;AASA;EACI,WAAA;EACA,yBAtBY;EAuBZ,iBAAA;AANJ;;AASA;EACI,oHAAA;EACA,0BAAA;EACA,4BAAA;EACA,iBAAA;EACA,cA9Bc;AAwBlB;;AASA;EACI,iBAAA;AANJ;;AASA;EACI,aAAA;EACA,eAAA;AANJ;;AASA;EACI,8BAAA;EACA,mBAAA;EACA,oBAAA;EACA,iBAAA;AANJ;;AASA;EACI,uBAAA;EACA,SAAA;EACA,eAAA;AANJ;;AASA;EACI,qBAAA;EACA,cAAA;AANJ;;AASA;EACI,eAAA;EACA,gBAAA;AANJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n\n$primary-color: #3b3430;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n\n* {\n    box-sizing: border-box;\n    font-family: 'Roboto', sans-serif;\n}\n\nhtml, body, #container {\n    height: 100%;\n    min-width: 375px;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.footer {\n    width: 100%;\n    background-color: $primary-color;\n    min-height: 250px;\n}\n\n#mainContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    min-height: 500px;\n    color: $secondary-color;\n}\n\n#mainContent2 {\n    min-height: 500px;\n}\n\n.navBar, .navMenu {\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.navBar {\n    justify-content: space-between;\n    padding-left: 100px;\n    padding-right: 100px;\n    padding-top: 50px;\n}\n\n.navMenu {\n    justify-content: center;\n    gap: 10px;\n    font-size: 20px;\n}\n\na {\n    text-decoration: none;\n    color: inherit;\n}\n\n.pageTitle {\n    font-size: 20px;\n    font-weight: 700;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: \"Roboto\", sans-serif;\n}\n\nhtml, body, #container {\n  height: 100%;\n  min-width: 375px;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer {\n  width: 100%;\n  background-color: #3b3430;\n  min-height: 250px;\n}\n\n#mainContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  min-height: 500px;\n  color: #f4f4f4;\n}\n\n#mainContent2 {\n  min-height: 500px;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center;\n}\n\n.navBar {\n  justify-content: space-between;\n  padding-left: 70px;\n  padding-right: 70px;\n  padding-top: 20px;\n}\n\n.navMenu {\n  justify-content: center;\n  gap: 50px;\n  font-size: 20px;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\n.pageTitle {\n  font-size: 20px;\n  font-weight: 700;\n}\n\n.logo {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: 100%;\n  width: 50px;\n  height: 50px;\n}\n\n.logoAndTitleCont {\n  gap: 20px;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AASA;EACI,sBAAA;EACA,iCAAA;AAPJ;;AAUA;EACI,YAAA;EACA,gBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;AAPJ;;AAUA;EACI,WAAA;EACA,yBAvBY;EAwBZ,iBAAA;AAPJ;;AAUA;EACI,oHAAA;EACA,0BAAA;EACA,4BAAA;EACA,iBAAA;EACA,cA/Bc;AAwBlB;;AAUA;EACI,iBAAA;AAPJ;;AAUA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;EACA,mBAAA;AAPJ;;AAUA;EACI,8BAAA;EACA,kBA3CW;EA4CX,mBA5CW;EA6CX,iBAAA;AAPJ;;AAUA;EACI,uBAAA;EACA,SAAA;EACA,eAAA;AAPJ;;AAUA;EACI,qBAAA;EACA,cAAA;AAPJ;;AAUA;EACI,eAAA;EACA,gBAAA;AAPJ;;AAUA;EACI,yDAAA;EACA,qBAAA;EACA,WAAA;EACA,YAAA;AAPJ;;AAUA;EACI,SAAA;AAPJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n\n$primary-color: #3b3430;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n$side-padding: 70px;\n\n* {\n    box-sizing: border-box;\n    font-family: 'Roboto', sans-serif;\n}\n\nhtml, body, #container {\n    height: 100%;\n    min-width: 375px;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.footer {\n    width: 100%;\n    background-color: $primary-color;\n    min-height: 250px;\n}\n\n#mainContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    min-height: 500px;\n    color: $secondary-color;\n}\n\n#mainContent2 {\n    min-height: 500px;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n}\n\n.navBar {\n    justify-content: space-between;\n    padding-left: $side-padding;\n    padding-right: $side-padding;\n    padding-top: $side-padding - 50px;\n}\n\n.navMenu {\n    justify-content: center;\n    gap: 50px;\n    font-size: 20px;\n}\n\na {\n    text-decoration: none;\n    color: inherit;\n}\n\n.pageTitle {\n    font-size: 20px;\n    font-weight: 700;\n}\n\n.logo {\n    background-image: url('../assets/images/space-needle.png');\n    background-size: 100%;\n    width: 50px;\n    height: 50px;\n}\n\n.logoAndTitleCont {\n    gap: 20px;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -597,13 +599,23 @@ function resizeContent () {
 
 /***/ }),
 
-/***/ "./src/images/pizza-background.jpg":
-/*!*****************************************!*\
-  !*** ./src/images/pizza-background.jpg ***!
-  \*****************************************/
+/***/ "./src/assets/images/pizza-background.jpg":
+/*!************************************************!*\
+  !*** ./src/assets/images/pizza-background.jpg ***!
+  \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "c424983ea6d69223b86d.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/space-needle.png":
+/*!********************************************!*\
+  !*** ./src/assets/images/space-needle.png ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "c579e295e5cf67142715.png";
 
 /***/ })
 
@@ -767,7 +779,8 @@ const pageTitle = document.createElement('div');
 const homeLink = document.createElement('a');
 const menuLink = document.createElement('a');
 const aboutLink = document.createElement('a');
-const logo = document.createElement('img');
+const logoAndTitleCont = document.createElement('div');
+const logo = document.createElement('div');
 
 navBar.classList.add('navBar');
 navMenu.classList.add('navMenu');
@@ -775,7 +788,8 @@ pageTitle.classList.add('pageTitle');
 homeLink.classList.add('homeLink');
 menuLink.classList.add('menuLink');
 aboutLink.classList.add('aboutLink');
-logo.src = './images/space-needle.png';
+logo.classList.add('logo');
+logoAndTitleCont.classList.add('logoAndTitleCont');
 
 homeLink.href = './index.html';
 menuLink.href = '';
@@ -790,7 +804,9 @@ aboutLink.innerText = 'About';
 
 document.getElementById('mainContent1').appendChild(navBar);
 
-navBar.appendChild(pageTitle);
+logoAndTitleCont.appendChild(logo);
+logoAndTitleCont.appendChild(pageTitle);
+navBar.appendChild(logoAndTitleCont);
 navBar.appendChild(navMenu);
 navMenu.appendChild(homeLink);
 navMenu.appendChild(menuLink);

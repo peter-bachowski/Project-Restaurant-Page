@@ -13,7 +13,8 @@ const pageTitle = document.createElement('div');
 const homeLink = document.createElement('a');
 const menuLink = document.createElement('a');
 const aboutLink = document.createElement('a');
-const logo = document.createElement('img');
+const logoAndTitleCont = document.createElement('div');
+const logo = document.createElement('div');
 
 navBar.classList.add('navBar');
 navMenu.classList.add('navMenu');
@@ -21,7 +22,8 @@ pageTitle.classList.add('pageTitle');
 homeLink.classList.add('homeLink');
 menuLink.classList.add('menuLink');
 aboutLink.classList.add('aboutLink');
-logo.src = './images/space-needle.png';
+logo.classList.add('logo');
+logoAndTitleCont.classList.add('logoAndTitleCont');
 
 homeLink.href = './index.html';
 menuLink.href = '';
@@ -36,7 +38,9 @@ aboutLink.innerText = 'About';
 
 document.getElementById('mainContent1').appendChild(navBar);
 
-navBar.appendChild(pageTitle);
+logoAndTitleCont.appendChild(logo);
+logoAndTitleCont.appendChild(pageTitle);
+navBar.appendChild(logoAndTitleCont);
 navBar.appendChild(navMenu);
 navMenu.appendChild(homeLink);
 navMenu.appendChild(menuLink);

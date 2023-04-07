@@ -5,6 +5,7 @@ $secondary-color: #f4f4f4;
 $box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
 $background-width: 100%;
 $content-height: 500px;
+$side-padding: 70px;
 
 * {
     box-sizing: border-box;
@@ -27,7 +28,7 @@ html, body, #container {
 }
 
 #mainContent1 {
-    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../images/pizza-background.jpg);
+    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);
     background-size: $background-width auto;
     background-repeat: no-repeat;
     min-height: 500px;
@@ -38,21 +39,23 @@ html, body, #container {
     min-height: 500px;
 }
 
-.navBar, .navMenu {
+.navBar, .navMenu, .logoAndTitleCont {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .navBar {
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
+    padding-left: $side-padding;
+    padding-right: $side-padding;
+    padding-top: $side-padding - 50px;
 }
 
 .navMenu {
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
     font-size: 20px;
 }
 
@@ -64,4 +67,15 @@ a {
 .pageTitle {
     font-size: 20px;
     font-weight: 700;
+}
+
+.logo {
+    background-image: url('../assets/images/space-needle.png');
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.logoAndTitleCont {
+    gap: 20px;
 }
