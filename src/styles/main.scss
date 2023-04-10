@@ -6,6 +6,7 @@ $box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
 $background-width: 100%;
 $content-height: 500px;
 $side-padding: 70px;
+$menuItemDimension: 250px;
 
 * {
     box-sizing: border-box;
@@ -25,18 +26,20 @@ html, body, #container {
     width: 100%;
     background-color: $primary-color;
     min-height: 250px;
+    display: flex;
 }
 
 #mainContent1 {
     background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);
     background-size: $background-width auto;
     background-repeat: no-repeat;
-    min-height: 500px;
+    // min-height: 500px;
     color: $secondary-color;
 }
 
 #mainContent2 {
-    min-height: 500px;
+    height: 100%;
+    display: flex;
 }
 
 .navBar, .navMenu, .logoAndTitleCont {
@@ -51,11 +54,12 @@ html, body, #container {
     padding-left: $side-padding;
     padding-right: $side-padding;
     padding-top: $side-padding - 50px;
+    align-items: center;
 }
 
 .navMenu {
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     font-size: 20px;
 }
 
@@ -67,6 +71,7 @@ a {
 .pageTitle {
     font-size: 20px;
     font-weight: 700;
+    margin-right: 20px;
 }
 
 .logo {
@@ -78,4 +83,21 @@ a {
 
 .logoAndTitleCont {
     gap: 20px;
+}
+
+.gridContainer {
+    padding: 50px;
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+}
+
+.menuElement {
+    width: $menuItemDimension;
+    height: $menuItemDimension;
+    background-position: center;
+    background-size: 100%;
 }
