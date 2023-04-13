@@ -29,7 +29,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.c
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\n* {\n  box-sizing: border-box;\n  font-family: \"Roboto\", sans-serif;\n}\n\nhtml, body, #container {\n  height: 100%;\n  min-width: 375px;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer {\n  width: 100%;\n  background-color: #3b3430;\n  min-height: 250px;\n  display: flexç;\n}\n\n#mainContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  color: #f4f4f4;\n}\n\n#mainContent2 {\n  height: 100%;\n  display: flex;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center;\n}\n\n.navBar {\n  justify-content: space-between;\n  padding-left: 70px;\n  padding-right: 70px;\n  padding-top: 20px;\n  align-items: center;\n}\n\n.navMenu {\n  justify-content: center;\n  gap: 30px;\n  font-size: 20px;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\n.pageTitle {\n  font-size: 20px;\n  font-weight: 700;\n  margin-right: 20px;\n}\n\n.logo {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: 100%;\n  width: 50px;\n  height: 50px;\n}\n\n.logoAndTitleCont {\n  gap: 20px;\n}\n\n.gridContainer {\n  padding: 50px;\n  display: inline-grid;\n  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n  grid-gap: 30px;\n  width: 100%;\n  height: auto;\n  justify-items: center;\n}\n\n.menuElement {\n  width: 250px;\n  height: 250px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.menuElement :last-child {\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAAA,gBAAgB;AAUhB;EACI,sBAAA;EACA,iCAAA;AAPJ;;AAUA;EACI,YAAA;EACA,gBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;AAPJ;;AAUA;EACI,WAAA;EACA,yBAxBY;EAyBZ,iBAAA;EACA,cAAA;AAPJ;;AAUA;EACI,oHAAA;EACA,0BAAA;EACA,4BAAA;EAEA,cAjCc;AAyBlB;;AAWA;EACI,YAAA;EACA,aAAA;AARJ;;AAWA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;EACA,mBAAA;AARJ;;AAWA;EACI,8BAAA;EACA,kBA9CW;EA+CX,mBA/CW;EAgDX,iBAAA;EACA,mBAAA;AARJ;;AAWA;EACI,uBAAA;EACA,SAAA;EACA,eAAA;AARJ;;AAWA;EACI,qBAAA;EACA,cAAA;AARJ;;AAWA;EACI,eAAA;EACA,gBAAA;EACA,kBAAA;AARJ;;AAWA;EACI,yDAAA;EACA,qBAAA;EACA,WAAA;EACA,YAAA;AARJ;;AAWA;EACI,SAAA;AARJ;;AAWA;EACI,aAAA;EACA,oBAAA;EACA,4DAAA;EACA,cAAA;EACA,WAAA;EACA,YAAA;EACA,qBAAA;AARJ;;AAWA;EACI,YA1FgB;EA2FhB,aA3FgB;EA4FhB,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AARJ;;AAWA;EACI,kBAAA;AARJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n\n$primary-color: #3b3430;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n$side-padding: 70px;\n$menuItemDimension: 250px;\n\n* {\n    box-sizing: border-box;\n    font-family: 'Roboto', sans-serif;\n}\n\nhtml, body, #container {\n    height: 100%;\n    min-width: 375px;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.footer {\n    width: 100%;\n    background-color: $primary-color;\n    min-height: 250px;\n    display: flexç;\n}\n\n#mainContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    // min-height: 500px;\n    color: $secondary-color;\n}\n\n#mainContent2 {\n    height: 100%;\n    display: flex;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n}\n\n.navBar {\n    justify-content: space-between;\n    padding-left: $side-padding;\n    padding-right: $side-padding;\n    padding-top: $side-padding - 50px;\n    align-items: center;\n}\n\n.navMenu {\n    justify-content: center;\n    gap: 30px;\n    font-size: 20px;\n}\n\na {\n    text-decoration: none;\n    color: inherit;\n}\n\n.pageTitle {\n    font-size: 20px;\n    font-weight: 700;\n    margin-right: 20px;\n}\n\n.logo {\n    background-image: url('../assets/images/space-needle.png');\n    background-size: 100%;\n    width: 50px;\n    height: 50px;\n}\n\n.logoAndTitleCont {\n    gap: 20px;\n}\n\n.gridContainer {\n    padding: 50px;\n    display: inline-grid;\n    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n    grid-gap: 30px;\n    width: 100%;\n    height: auto;\n    justify-items: center;\n}\n\n.menuElement {\n    width: $menuItemDimension;\n    height: $menuItemDimension;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    gap: 10px;\n}\n\n.menuElement :last-child {\n    text-align: center;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\n* {\n  box-sizing: border-box;\n  font-family: \"Roboto\", sans-serif;\n}\n\nhtml, body, #container {\n  height: 100%;\n  min-width: 375px;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer {\n  width: 100%;\n  background-color: #3b3430;\n  min-height: 250px;\n  display: flexç;\n}\n\n#mainContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  color: #f4f4f4;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center;\n}\n\n.navBar {\n  justify-content: space-between;\n  padding-left: 70px;\n  padding-right: 70px;\n  padding-top: 20px;\n  align-items: center;\n}\n\n.navMenu {\n  justify-content: center;\n  gap: 30px;\n  font-size: 20px;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n}\n\n.pageTitle {\n  font-size: 20px;\n  font-weight: 700;\n  margin-right: 20px;\n}\n\n.logo {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: 100%;\n  width: 50px;\n  height: 50px;\n}\n\n.logoAndTitleCont {\n  gap: 20px;\n}\n\n.gridContainer {\n  padding: 50px;\n  display: inline-grid;\n  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n  grid-gap: 30px;\n  width: 100%;\n  height: auto;\n  justify-items: center;\n}\n\n.menuElement {\n  width: 250px;\n  height: 250px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.menuElement :last-child {\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAAA,gBAAgB;AAUhB;EACI,sBAAA;EACA,iCAAA;AAPJ;;AAUA;EACI,YAAA;EACA,gBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;AAPJ;;AAUA;EACI,WAAA;EACA,yBAxBY;EAyBZ,iBAAA;EACA,cAAA;AAPJ;;AAUA;EACI,oHAAA;EACA,0BAAA;EACA,4BAAA;EAEA,cAjCc;AAyBlB;;AAgBA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;EACA,mBAAA;AAbJ;;AAgBA;EACI,8BAAA;EACA,kBA9CW;EA+CX,mBA/CW;EAgDX,iBAAA;EACA,mBAAA;AAbJ;;AAgBA;EACI,uBAAA;EACA,SAAA;EACA,eAAA;AAbJ;;AAgBA;EACI,qBAAA;EACA,cAAA;AAbJ;;AAgBA;EACI,eAAA;EACA,gBAAA;EACA,kBAAA;AAbJ;;AAgBA;EACI,yDAAA;EACA,qBAAA;EACA,WAAA;EACA,YAAA;AAbJ;;AAgBA;EACI,SAAA;AAbJ;;AAgBA;EACI,aAAA;EACA,oBAAA;EACA,4DAAA;EACA,cAAA;EACA,WAAA;EACA,YAAA;EACA,qBAAA;AAbJ;;AAgBA;EACI,YA1FgB;EA2FhB,aA3FgB;EA4FhB,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AAbJ;;AAgBA;EACI,kBAAA;AAbJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n\n$primary-color: #3b3430;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n$side-padding: 70px;\n$menuItemDimension: 250px;\n\n* {\n    box-sizing: border-box;\n    font-family: 'Roboto', sans-serif;\n}\n\nhtml, body, #container {\n    height: 100%;\n    min-width: 375px;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.footer {\n    width: 100%;\n    background-color: $primary-color;\n    min-height: 250px;\n    display: flexç;\n}\n\n#mainContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    // min-height: 500px;\n    color: $secondary-color;\n}\n\n// #mainContent2 {\n//     height: 100%;\n//     display: flex;\n// }\n\n.navBar, .navMenu, .logoAndTitleCont {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n}\n\n.navBar {\n    justify-content: space-between;\n    padding-left: $side-padding;\n    padding-right: $side-padding;\n    padding-top: $side-padding - 50px;\n    align-items: center;\n}\n\n.navMenu {\n    justify-content: center;\n    gap: 30px;\n    font-size: 20px;\n}\n\na {\n    text-decoration: none;\n    color: inherit;\n}\n\n.pageTitle {\n    font-size: 20px;\n    font-weight: 700;\n    margin-right: 20px;\n}\n\n.logo {\n    background-image: url('../assets/images/space-needle.png');\n    background-size: 100%;\n    width: 50px;\n    height: 50px;\n}\n\n.logoAndTitleCont {\n    gap: 20px;\n}\n\n.gridContainer {\n    padding: 50px;\n    display: inline-grid;\n    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n    grid-gap: 30px;\n    width: 100%;\n    height: auto;\n    justify-items: center;\n}\n\n.menuElement {\n    width: $menuItemDimension;\n    height: $menuItemDimension;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    gap: 10px;\n}\n\n.menuElement :last-child {\n    text-align: center;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -17786,39 +17786,53 @@ function makeGridForMenu () {
     gridContainer.classList.add('gridContainer');
     mainContent2.appendChild(gridContainer);
 
-    const menuElement = document.createElement('div');
+    const menuElement = document.createElement('a');
     const menuElementImg = document.createElement('img');
     const menuElementTitle = document.createElement('div');
 
     menuElement.appendChild(menuElementImg);
     menuElement.appendChild(menuElementTitle);
 
-    for (let i = 0; i <= menuSize; i++){
+    for (let i = 0; i < menuSize; i++){
         menuArray[i] = menuElement.cloneNode(true);
         menuArray[i].classList.add('menuElement');
         gridContainer.appendChild(menuArray[i]);
     }
 
+    menuArray[0].id = 'chickenGarlicDiv';
     menuArray[0].firstChild.src = '../src/assets/images/chicken-alfredo.png';
     menuArray[0].lastChild.innerText = 'Chicken Garlic Alfredo Pizza';
+    menuArray[0].href = '';
 
+    menuArray[1].id = 'bbqChickenDiv';
     menuArray[1].firstChild.src = '../src/assets/images/BBQ-chicken-pizza-1.png';
     menuArray[1].lastChild.innerText = 'BBQ Chicken Pizza';
+    menuArray[1].href = '';
 
+    menuArray[2].id = 'chickenPestoDiv';
     menuArray[2].firstChild.src = '../src/assets/images/chicken-pesto-pizza.png';
     menuArray[2].lastChild.innerText = 'Chicken Pesto Pizza';
+    menuArray[2].href = '';
 
+    menuArray[3].id = 'meatLoversDiv';
     menuArray[3].firstChild.src = '../src/assets/images/meat-lover-pizza.png';
     menuArray[3].lastChild.innerText = 'Meat Lovers Pizza';
+    menuArray[3].href = '';
     
+    menuArray[4].id = 'spiroSpecialDiv';
     menuArray[4].firstChild.src = '../src/assets/images/spiro-special.png';
     menuArray[4].lastChild.innerText = 'Spiro Special Pizza';
+    menuArray[4].href = '';
     
+    menuArray[5].id = 'sweetAndSpicyDiv';
     menuArray[5].firstChild.src = '../src/assets/images/SWEETSPICY.png';
     menuArray[5].lastChild.innerText = 'Sweet and Spicy Pizza';
+    menuArray[5].href = '';
     
+    menuArray[6].id = 'veggieSpecialDiv';
     menuArray[6].firstChild.src = '../src/assets/images/veggie-special.png';
     menuArray[6].lastChild.innerText = 'Veggie Special Pizza';
+    menuArray[6].href = '';
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (makeGridForMenu);
