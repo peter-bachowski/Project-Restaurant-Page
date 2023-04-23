@@ -1,4 +1,4 @@
-function makeGridForMenu () {
+function menuContent () {
 
     const menuSize = 7;
     let menuArray = [];
@@ -56,4 +56,4 @@ function makeGridForMenu () {
     menuArray[6].href = '';
 }
 
-export default makeGridForMenu;
+export default menuContent;

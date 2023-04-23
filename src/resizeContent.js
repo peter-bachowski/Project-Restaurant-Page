@@ -10,7 +10,7 @@ function resizeContent () {
         else {
             mainContent1.style.minHeight = '500px';
         }
-        if (window.innerWidth <= 607) {
+        if (window.innerWidth <= 647) {
             navBar.style.justifyContent = 'center';
         }
         else {

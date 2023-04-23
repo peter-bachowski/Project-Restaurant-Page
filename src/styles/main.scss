@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://www.1001fonts.com/metropolis-font.html');
 
 $primary-color: #3b3430;
 $secondary-color: #f4f4f4;
@@ -6,11 +7,14 @@ $box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
 $background-width: 100%;
 $content-height: 500px;
 $side-padding: 70px;
-$menuItemDimension: 250px;
+$menu-Item-Dimension: 250px;
+$main-Link-Background-Color: #f4f4f4df;
+$main-Link-Color: black;
+$secondar-Link-Background-Color: #3b3430e0;
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'metropolis', sans-serif;
 }
 
 html, body, #container {
@@ -25,22 +29,32 @@ html, body, #container {
 .footer {
     width: 100%;
     background-color: $primary-color;
-    min-height: 250px;
-    display: flexç;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+    color: $secondary-color;
+    position: relative;
+}
+
+.footer > * {
+    margin: 10px;
+}
+
+.copyrightDiv {
+    position: absolute;
+    bottom: 0;
+    color: #5e5956;
 }
 
 #mainContent1 {
     background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);
     background-size: $background-width auto;
     background-repeat: no-repeat;
-    // min-height: 500px;
     color: $secondary-color;
 }
-
-// #mainContent2 {
-//     height: 100%;
-//     display: flex;
-// }
 
 .navBar, .navMenu, .logoAndTitleCont {
     display: flex;
@@ -63,9 +77,16 @@ html, body, #container {
     font-size: 20px;
 }
 
-a {
+.navMenu > a {
     text-decoration: none;
     color: inherit;
+    padding: 10px;
+    background: $secondar-Link-Background-Color;
+}
+
+a.homeLink {
+    background: $main-Link-Background-Color;
+    color: $main-Link-Color;
 }
 
 .pageTitle {
@@ -95,9 +116,14 @@ a {
     justify-items: center;
 }
 
+.gridContainer > a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .menuElement {
-    width: $menuItemDimension;
-    height: $menuItemDimension;
+    width: $menu-Item-Dimension;
+    height: $menu-Item-Dimension;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,4 +133,21 @@ a {
 
 .menuElement :last-child {
     text-align: center;
+}
+
+.mediaLinksDiv > * {
+    width: 50px;
+    height: 50px;
+}
+
+.mediaLinksDiv {
+    width: 100%;
+    justify-content: center;
+}
+
+.infoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
