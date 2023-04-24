@@ -77,14 +77,15 @@ html, body, #container {
     font-size: 20px;
 }
 
-.navMenu > a {
+.navMenu > div {
     text-decoration: none;
     color: inherit;
     padding: 10px;
     background: $secondar-Link-Background-Color;
+    cursor: pointer;
 }
 
-a.homeLink {
+div.selectedLink {
     background: $main-Link-Background-Color;
     color: $main-Link-Color;
 }

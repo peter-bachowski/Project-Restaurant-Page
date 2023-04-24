@@ -2,9 +2,9 @@ function makeHeaderElements () {
     const navBar = document.createElement('div');
     const navMenu = document.createElement('div');
     const pageTitle = document.createElement('div');
-    const homeLink = document.createElement('a');
-    const menuLink = document.createElement('a');
-    const aboutLink = document.createElement('a');
+    const homeLink = document.createElement('div');
+    const menuLink = document.createElement('div');
+    const aboutLink = document.createElement('div');
     const logoAndTitleCont = document.createElement('div');
     const logo = document.createElement('div');
 
@@ -16,10 +16,6 @@ function makeHeaderElements () {
     aboutLink.classList.add('aboutLink');
     logo.classList.add('logo');
     logoAndTitleCont.classList.add('logoAndTitleCont');
-
-    homeLink.href = './index.html';
-    menuLink.href = '';
-    aboutLink.href = '';
 
     pageTitle.innerText = 'Slice of Seattle';
     pageTitle.appendChild(logo);
