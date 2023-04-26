@@ -19,9 +19,6 @@ function addPageBaseElements () {
     mainContent1.id = 'mainContent1';
     mainContent2.id = 'mainContent2';
 
-    const gridContainer = document.createElement('div');
-    gridContainer.classList.add('gridContainer');
-    mainContent2.appendChild(gridContainer);
 
     locationInfoDiv.innerText = 'LOCATION\n\n\n\n12345 12th ave W\n\nLynnwood, WA 98087\n\n(123)456-7890';
     hoursInfoDiv.innerText = 'HOURS\n\n\n\nMonday through Sunday\n\n11am to 9pm';
