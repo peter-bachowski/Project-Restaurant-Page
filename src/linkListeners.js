@@ -10,19 +10,21 @@ function linkListeners () {
 
     homeLink.addEventListener('click', () => {
         removeSelectedLinkClass();
-
+        removeContent();
         homeContent();
         homeLink.classList.add('selectedLink');
     });
 
     menuLink.addEventListener('click', () => {
         removeSelectedLinkClass();
+        removeContent();
         menuContent();
         menuLink.classList.add('selectedLink');
     });
 
     aboutLink.addEventListener('click', () => {
         removeSelectedLinkClass();
+        removeContent();
         aboutContent();
         aboutLink.classList.add('selectedLink');
     });
@@ -32,6 +34,11 @@ function linkListeners () {
         for (let i = 0; i < links.length; i++){
             links[i].classList.remove('selectedLink');
         }
+    }
+
+    function removeContent () {
+        const content = document.querySelector('#mainContent2 :first-child');
+        mainContent2.removeChild(content);
     }
 }
 
