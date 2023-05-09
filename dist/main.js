@@ -30,7 +30,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://www.1001fonts.com/
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: \"metropolis\", sans-serif;\n}\n\nhtml, body, #container {\n  height: 100%;\n  min-width: 375px;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer {\n  width: 100%;\n  background-color: #3b3430;\n  min-height: 450px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 20%;\n  color: #f4f4f4;\n  position: relative;\n}\n\n.footer > * {\n  margin: 10px;\n}\n\n.copyrightDiv {\n  position: absolute;\n  bottom: 0;\n  color: #5e5956;\n}\n\n#mainContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  color: #f4f4f4;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center;\n}\n\n.navBar {\n  justify-content: space-between;\n  padding-left: 70px;\n  padding-right: 70px;\n  padding-top: 20px;\n  align-items: center;\n}\n\n.navMenu {\n  justify-content: center;\n  gap: 30px;\n  font-size: 20px;\n}\n\n.navMenu > div {\n  text-decoration: none;\n  color: inherit;\n  padding: 10px;\n  background: rgba(59, 52, 48, 0.8784313725);\n  cursor: pointer;\n}\n\ndiv.selectedLink {\n  background: rgba(244, 244, 244, 0.8745098039);\n  color: black;\n}\n\n.pageTitle {\n  font-size: 20px;\n  font-weight: 700;\n  margin-right: 20px;\n}\n\n.logo {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: 100%;\n  width: 50px;\n  height: 50px;\n}\n\n.logoAndTitleCont {\n  gap: 20px;\n}\n\n.gridContainer {\n  padding: 50px;\n  display: inline-grid;\n  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n  grid-gap: 30px;\n  width: 100%;\n  height: auto;\n  justify-items: center;\n}\n\n.gridContainer > a {\n  color: inherit;\n  text-decoration: none;\n}\n\n.menuElement {\n  width: 250px;\n  height: 250px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.menuElement :last-child {\n  text-align: center;\n}\n\n.mediaLinksDiv > * {\n  width: 50px;\n  height: 50px;\n}\n\n.mediaLinksDiv {\n  width: 100%;\n  justify-content: center;\n}\n\n.infoContainer {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n.homeContentDiv, .aboutContentDiv {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  height: 300px;\n  gap: 20px;\n  flex-direction: column;\n}\n\n.aboutContentDiv > * {\n  padding: 20px 40px;\n  width: 100%;\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAcA;EACI,sBAAA;EACA,qCAAA;AAXJ;;AAcA;EACI,YAAA;EACA,gBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;AAXJ;;AAcA;EACI,WAAA;EACA,yBA3BY;EA4BZ,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,cAjCc;EAkCd,kBAAA;AAXJ;;AAcA;EACI,YAAA;AAXJ;;AAcA;EACI,kBAAA;EACA,SAAA;EACA,cAAA;AAXJ;;AAcA;EACI,oHAAA;EACA,0BAAA;EACA,4BAAA;EACA,cAnDc;AAwClB;;AAcA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;EACA,mBAAA;AAXJ;;AAcA;EACI,8BAAA;EACA,kBA3DW;EA4DX,mBA5DW;EA6DX,iBAAA;EACA,mBAAA;AAXJ;;AAcA;EACI,uBAAA;EACA,SAAA;EACA,eAAA;AAXJ;;AAcA;EACI,qBAAA;EACA,cAAA;EACA,aAAA;EACA,0CAvE6B;EAwE7B,eAAA;AAXJ;;AAcA;EACI,6CA9EyB;EA+EzB,YA9Ec;AAmElB;;AAcA;EACI,eAAA;EACA,gBAAA;EACA,kBAAA;AAXJ;;AAcA;EACI,yDAAA;EACA,qBAAA;EACA,WAAA;EACA,YAAA;AAXJ;;AAcA;EACI,SAAA;AAXJ;;AAcA;EACI,aAAA;EACA,oBAAA;EACA,4DAAA;EACA,cAAA;EACA,WAAA;EACA,YAAA;EACA,qBAAA;AAXJ;;AAcA;EACI,cAAA;EACA,qBAAA;AAXJ;;AAcA;EACI,YApHkB;EAqHlB,aArHkB;EAsHlB,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AAXJ;;AAcA;EACI,kBAAA;AAXJ;;AAcA;EACI,WAAA;EACA,YAAA;AAXJ;;AAcA;EACI,WAAA;EACA,uBAAA;AAXJ;;AAcA;EACI,WAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;AAXJ;;AAcA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,WAAA;EACA,aAAA;EACA,SAAA;EACA,sBAAA;AAXJ;;AAcA;EACI,kBAAA;EACA,WAAA;EACA,kBAAA;AAXJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n@import url('https://www.1001fonts.com/metropolis-font.html');\n\n$primary-color: #3b3430;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n$side-padding: 70px;\n$menu-Item-Dimension: 250px;\n$main-Link-Background-Color: #f4f4f4df;\n$main-Link-Color: black;\n$secondar-Link-Background-Color: #3b3430e0;\n\n* {\n    box-sizing: border-box;\n    font-family: 'metropolis', sans-serif;\n}\n\nhtml, body, #container {\n    height: 100%;\n    min-width: 375px;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.footer {\n    width: 100%;\n    background-color: $primary-color;\n    min-height: 450px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 20%;\n    color: $secondary-color;\n    position: relative;\n}\n\n.footer > * {\n    margin: 10px;\n}\n\n.copyrightDiv {\n    position: absolute;\n    bottom: 0;\n    color: #5e5956;\n}\n\n#mainContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    color: $secondary-color;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n}\n\n.navBar {\n    justify-content: space-between;\n    padding-left: $side-padding;\n    padding-right: $side-padding;\n    padding-top: $side-padding - 50px;\n    align-items: center;\n}\n\n.navMenu {\n    justify-content: center;\n    gap: 30px;\n    font-size: 20px;\n}\n\n.navMenu > div {\n    text-decoration: none;\n    color: inherit;\n    padding: 10px;\n    background: $secondar-Link-Background-Color;\n    cursor: pointer;\n}\n\ndiv.selectedLink {\n    background: $main-Link-Background-Color;\n    color: $main-Link-Color;\n}\n\n.pageTitle {\n    font-size: 20px;\n    font-weight: 700;\n    margin-right: 20px;\n}\n\n.logo {\n    background-image: url('../assets/images/space-needle.png');\n    background-size: 100%;\n    width: 50px;\n    height: 50px;\n}\n\n.logoAndTitleCont {\n    gap: 20px;\n}\n\n.gridContainer {\n    padding: 50px;\n    display: inline-grid;\n    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n    grid-gap: 30px;\n    width: 100%;\n    height: auto;\n    justify-items: center;\n}\n\n.gridContainer > a {\n    color: inherit;\n    text-decoration: none;\n}\n\n.menuElement {\n    width: $menu-Item-Dimension;\n    height: $menu-Item-Dimension;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    gap: 10px;\n}\n\n.menuElement :last-child {\n    text-align: center;\n}\n\n.mediaLinksDiv > * {\n    width: 50px;\n    height: 50px;\n}\n\n.mediaLinksDiv {\n    width: 100%;\n    justify-content: center;\n}\n\n.infoContainer {\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n}\n\n.homeContentDiv, .aboutContentDiv {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 300px;\n    gap: 20px;\n    flex-direction: column;\n}\n\n.aboutContentDiv > * {\n    padding: 20px 40px;\n    width: 100%;\n    text-align: center;\n}\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: \"metropolis\", sans-serif;\n}\n\nhtml, body, #container {\n  height: 100%;\n  min-width: 375px;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer {\n  width: 100%;\n  background-color: #3b3430;\n  min-height: 450px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 20%;\n  color: #f4f4f4;\n  position: relative;\n}\n\n.footer > * {\n  margin: 10px;\n}\n\n.copyrightDiv {\n  position: absolute;\n  bottom: 0;\n  color: #5e5956;\n}\n\n#mainContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  color: #f4f4f4;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center;\n}\n\n.navBar {\n  justify-content: space-between;\n  padding-left: 70px;\n  padding-right: 70px;\n  padding-top: 20px;\n  align-items: center;\n}\n\n.navMenu {\n  justify-content: center;\n  gap: 30px;\n  font-size: 20px;\n}\n\n.navMenu > div {\n  text-decoration: none;\n  color: inherit;\n  padding: 10px;\n  background: rgba(59, 52, 48, 0.8784313725);\n  cursor: pointer;\n}\n\ndiv.selectedLink {\n  background: rgba(244, 244, 244, 0.8745098039);\n  color: black;\n}\n\n.pageTitle {\n  font-size: 20px;\n  font-weight: 700;\n  margin-right: 20px;\n}\n\n.logo {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: 100%;\n  width: 50px;\n  height: 50px;\n}\n\n.logoAndTitleCont {\n  gap: 20px;\n}\n\n.gridContainer {\n  padding: 50px;\n  display: inline-grid;\n  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n  grid-gap: 30px;\n  width: 100%;\n  height: auto;\n  justify-items: center;\n}\n\n.gridContainer > a {\n  color: inherit;\n  text-decoration: none;\n}\n\n.menuElement {\n  width: 250px;\n  height: 250px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.menuElement :last-child {\n  text-align: center;\n}\n\n.mediaLinksDiv > * {\n  width: 50px;\n  height: 50px;\n}\n\n.mediaLinksDiv {\n  width: 100%;\n  justify-content: center;\n}\n\n.infoContainer {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n.homeContentDiv, .aboutContentDiv {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  min-height: 300px;\n  gap: 20px;\n  flex-direction: column;\n}\n\n.aboutContentDiv > * {\n  padding: 20px 30%;\n  width: 100%;\n  font-size: 20px;\n  text-indent: 30px;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAcA;EACI,sBAAA;EACA,qCAAA;AAXJ;;AAcA;EACI,YAAA;EACA,gBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;AAXJ;;AAcA;EACI,WAAA;EACA,yBA3BY;EA4BZ,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,cAjCc;EAkCd,kBAAA;AAXJ;;AAcA;EACI,YAAA;AAXJ;;AAcA;EACI,kBAAA;EACA,SAAA;EACA,cAAA;AAXJ;;AAcA;EACI,oHAAA;EACA,0BAAA;EACA,4BAAA;EACA,cAnDc;AAwClB;;AAcA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;EACA,mBAAA;AAXJ;;AAcA;EACI,8BAAA;EACA,kBA3DW;EA4DX,mBA5DW;EA6DX,iBAAA;EACA,mBAAA;AAXJ;;AAcA;EACI,uBAAA;EACA,SAAA;EACA,eAAA;AAXJ;;AAcA;EACI,qBAAA;EACA,cAAA;EACA,aAAA;EACA,0CAvE6B;EAwE7B,eAAA;AAXJ;;AAcA;EACI,6CA9EyB;EA+EzB,YA9Ec;AAmElB;;AAcA;EACI,eAAA;EACA,gBAAA;EACA,kBAAA;AAXJ;;AAcA;EACI,yDAAA;EACA,qBAAA;EACA,WAAA;EACA,YAAA;AAXJ;;AAcA;EACI,SAAA;AAXJ;;AAcA;EACI,aAAA;EACA,oBAAA;EACA,4DAAA;EACA,cAAA;EACA,WAAA;EACA,YAAA;EACA,qBAAA;AAXJ;;AAcA;EACI,cAAA;EACA,qBAAA;AAXJ;;AAcA;EACI,YApHkB;EAqHlB,aArHkB;EAsHlB,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AAXJ;;AAcA;EACI,kBAAA;AAXJ;;AAcA;EACI,WAAA;EACA,YAAA;AAXJ;;AAcA;EACI,WAAA;EACA,uBAAA;AAXJ;;AAcA;EACI,WAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;AAXJ;;AAcA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,WAAA;EACA,iBAAA;EACA,SAAA;EACA,sBAAA;AAXJ;;AAcA;EACI,iBAAA;EACA,WAAA;EACA,eAAA;EACA,iBAAA;AAXJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n@import url('https://www.1001fonts.com/metropolis-font.html');\n\n$primary-color: #3b3430;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n$side-padding: 70px;\n$menu-Item-Dimension: 250px;\n$main-Link-Background-Color: #f4f4f4df;\n$main-Link-Color: black;\n$secondar-Link-Background-Color: #3b3430e0;\n\n* {\n    box-sizing: border-box;\n    font-family: 'metropolis', sans-serif;\n}\n\nhtml, body, #container {\n    height: 100%;\n    min-width: 375px;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.footer {\n    width: 100%;\n    background-color: $primary-color;\n    min-height: 450px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 20%;\n    color: $secondary-color;\n    position: relative;\n}\n\n.footer > * {\n    margin: 10px;\n}\n\n.copyrightDiv {\n    position: absolute;\n    bottom: 0;\n    color: #5e5956;\n}\n\n#mainContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    color: $secondary-color;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n}\n\n.navBar {\n    justify-content: space-between;\n    padding-left: $side-padding;\n    padding-right: $side-padding;\n    padding-top: $side-padding - 50px;\n    align-items: center;\n}\n\n.navMenu {\n    justify-content: center;\n    gap: 30px;\n    font-size: 20px;\n}\n\n.navMenu > div {\n    text-decoration: none;\n    color: inherit;\n    padding: 10px;\n    background: $secondar-Link-Background-Color;\n    cursor: pointer;\n}\n\ndiv.selectedLink {\n    background: $main-Link-Background-Color;\n    color: $main-Link-Color;\n}\n\n.pageTitle {\n    font-size: 20px;\n    font-weight: 700;\n    margin-right: 20px;\n}\n\n.logo {\n    background-image: url('../assets/images/space-needle.png');\n    background-size: 100%;\n    width: 50px;\n    height: 50px;\n}\n\n.logoAndTitleCont {\n    gap: 20px;\n}\n\n.gridContainer {\n    padding: 50px;\n    display: inline-grid;\n    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n    grid-gap: 30px;\n    width: 100%;\n    height: auto;\n    justify-items: center;\n}\n\n.gridContainer > a {\n    color: inherit;\n    text-decoration: none;\n}\n\n.menuElement {\n    width: $menu-Item-Dimension;\n    height: $menu-Item-Dimension;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    gap: 10px;\n}\n\n.menuElement :last-child {\n    text-align: center;\n}\n\n.mediaLinksDiv > * {\n    width: 50px;\n    height: 50px;\n}\n\n.mediaLinksDiv {\n    width: 100%;\n    justify-content: center;\n}\n\n.infoContainer {\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n}\n\n.homeContentDiv, .aboutContentDiv {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    min-height: 300px;\n    gap: 20px;\n    flex-direction: column;\n}\n\n.aboutContentDiv > * {\n    padding: 20px 30%;\n    width: 100%;\n    font-size: 20px;\n    text-indent: 30px;\n}\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -17862,10 +17862,10 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/aboutContent.js":
-/*!*****************************!*\
-  !*** ./src/aboutContent.js ***!
-  \*****************************/
+/***/ "./src/addAboutContent.js":
+/*!********************************!*\
+  !*** ./src/addAboutContent.js ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17873,13 +17873,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-function aboutContent () {
+function addAboutContent () {
     const aboutLink = document.querySelector('.aboutLink');
     const aboutContentDiv = document.createElement('div');
     const mainContent2 = document.querySelector('#mainContent2');
     const aboutPar1 = document.createElement('div');
     const aboutPar2 = document.createElement('div');
+    const mainContent1 = document.getElementById('mainContent1');
 
+    mainContent1.style.backgroundImage = 'linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/restaurant.png);';
+    
     aboutLink.classList.add('selectedLink');
     aboutContentDiv.classList.add('aboutContentDiv');
 
@@ -17892,7 +17895,108 @@ function aboutContent () {
     mainContent2.appendChild(aboutContentDiv);
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (aboutContent);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addAboutContent);
+
+/***/ }),
+
+/***/ "./src/addHomeContent.js":
+/*!*******************************!*\
+  !*** ./src/addHomeContent.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function addHomeContent () {
+    const homeLink = document.querySelector('.homeLink');
+    const homeContentDiv = document.createElement('div');
+    const mainContent2 = document.querySelector('#mainContent2');
+
+    homeLink.classList.add('selectedLink');
+    homeContentDiv.classList.add('homeContentDiv');
+
+    homeContentDiv.innerText = 'Welcome!';
+
+    mainContent2.appendChild(homeContentDiv);
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addHomeContent);
+
+/***/ }),
+
+/***/ "./src/addMenuContent.js":
+/*!*******************************!*\
+  !*** ./src/addMenuContent.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function addMenuContent () {
+
+    const menuSize = 7;
+    let menuArray = [];
+
+    const gridContainer = document.createElement('div');
+    gridContainer.classList.add('gridContainer');
+    mainContent2.appendChild(gridContainer);
+
+    const menuElement = document.createElement('a');
+    const menuElementImg = document.createElement('img');
+    const menuElementTitle = document.createElement('div');
+
+    menuElement.appendChild(menuElementImg);
+    menuElement.appendChild(menuElementTitle);
+
+    for (let i = 0; i < menuSize; i++){
+        menuArray[i] = menuElement.cloneNode(true);
+        menuArray[i].classList.add('menuElement');
+        gridContainer.appendChild(menuArray[i]);
+    }
+
+    menuArray[0].id = 'chickenGarlicDiv';
+    menuArray[0].firstChild.src = '../src/assets/images/chicken-alfredo.png';
+    menuArray[0].lastChild.innerText = 'Chicken Garlic Alfredo Pizza';
+    menuArray[0].href = '';
+
+    menuArray[1].id = 'bbqChickenDiv';
+    menuArray[1].firstChild.src = '../src/assets/images/BBQ-chicken-pizza-1.png';
+    menuArray[1].lastChild.innerText = 'BBQ Chicken Pizza';
+    menuArray[1].href = '';
+
+    menuArray[2].id = 'chickenPestoDiv';
+    menuArray[2].firstChild.src = '../src/assets/images/chicken-pesto-pizza.png';
+    menuArray[2].lastChild.innerText = 'Chicken Pesto Pizza';
+    menuArray[2].href = '';
+
+    menuArray[3].id = 'meatLoversDiv';
+    menuArray[3].firstChild.src = '../src/assets/images/meat-lover-pizza.png';
+    menuArray[3].lastChild.innerText = 'Meat Lovers Pizza';
+    menuArray[3].href = '';
+    
+    menuArray[4].id = 'spiroSpecialDiv';
+    menuArray[4].firstChild.src = '../src/assets/images/spiro-special.png';
+    menuArray[4].lastChild.innerText = 'Spiro Special Pizza';
+    menuArray[4].href = '';
+    
+    menuArray[5].id = 'sweetAndSpicyDiv';
+    menuArray[5].firstChild.src = '../src/assets/images/SWEETSPICY.png';
+    menuArray[5].lastChild.innerText = 'Sweet and Spicy Pizza';
+    menuArray[5].href = '';
+    
+    menuArray[6].id = 'veggieSpecialDiv';
+    menuArray[6].firstChild.src = '../src/assets/images/veggie-special.png';
+    menuArray[6].lastChild.innerText = 'Veggie Special Pizza';
+    menuArray[6].href = '';
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addMenuContent);
 
 /***/ }),
 
@@ -17966,34 +18070,6 @@ function addPageBaseElements () {
 
 /***/ }),
 
-/***/ "./src/homeContent.js":
-/*!****************************!*\
-  !*** ./src/homeContent.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-function homeContent () {
-    const homeLink = document.querySelector('.homeLink');
-    const homeContentDiv = document.createElement('div');
-    const mainContent2 = document.querySelector('#mainContent2');
-
-    homeLink.classList.add('selectedLink');
-    homeContentDiv.classList.add('homeContentDiv');
-
-    homeContentDiv.innerText = 'Welcome!';
-
-    mainContent2.appendChild(homeContentDiv);
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homeContent);
-
-/***/ }),
-
 /***/ "./src/linkListeners.js":
 /*!******************************!*\
   !*** ./src/linkListeners.js ***!
@@ -18005,9 +18081,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _homeContent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homeContent */ "./src/homeContent.js");
-/* harmony import */ var _menuContent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menuContent */ "./src/menuContent.js");
-/* harmony import */ var _aboutContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./aboutContent */ "./src/aboutContent.js");
+/* harmony import */ var _addHomeContent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addHomeContent */ "./src/addHomeContent.js");
+/* harmony import */ var _addMenuContent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./addMenuContent */ "./src/addMenuContent.js");
+/* harmony import */ var _addAboutContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./addAboutContent */ "./src/addAboutContent.js");
 
 
 
@@ -18021,21 +18097,21 @@ function linkListeners () {
     homeLink.addEventListener('click', () => {
         removeSelectedLinkClass();
         removeContent();
-        (0,_homeContent__WEBPACK_IMPORTED_MODULE_0__["default"])();
+        (0,_addHomeContent__WEBPACK_IMPORTED_MODULE_0__["default"])();
         homeLink.classList.add('selectedLink');
     });
 
     menuLink.addEventListener('click', () => {
         removeSelectedLinkClass();
         removeContent();
-        (0,_menuContent__WEBPACK_IMPORTED_MODULE_1__["default"])();
+        (0,_addMenuContent__WEBPACK_IMPORTED_MODULE_1__["default"])();
         menuLink.classList.add('selectedLink');
     });
 
     aboutLink.addEventListener('click', () => {
         removeSelectedLinkClass();
         removeContent();
-        (0,_aboutContent__WEBPACK_IMPORTED_MODULE_2__["default"])();
+        (0,_addAboutContent__WEBPACK_IMPORTED_MODULE_2__["default"])();
         aboutLink.classList.add('selectedLink');
     });
 
@@ -18106,79 +18182,6 @@ function makeHeaderElements () {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (makeHeaderElements);
-
-/***/ }),
-
-/***/ "./src/menuContent.js":
-/*!****************************!*\
-  !*** ./src/menuContent.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-function menuContent () {
-
-    const menuSize = 7;
-    let menuArray = [];
-
-    const gridContainer = document.createElement('div');
-    gridContainer.classList.add('gridContainer');
-    mainContent2.appendChild(gridContainer);
-
-    const menuElement = document.createElement('a');
-    const menuElementImg = document.createElement('img');
-    const menuElementTitle = document.createElement('div');
-
-    menuElement.appendChild(menuElementImg);
-    menuElement.appendChild(menuElementTitle);
-
-    for (let i = 0; i < menuSize; i++){
-        menuArray[i] = menuElement.cloneNode(true);
-        menuArray[i].classList.add('menuElement');
-        gridContainer.appendChild(menuArray[i]);
-    }
-
-    menuArray[0].id = 'chickenGarlicDiv';
-    menuArray[0].firstChild.src = '../src/assets/images/chicken-alfredo.png';
-    menuArray[0].lastChild.innerText = 'Chicken Garlic Alfredo Pizza';
-    menuArray[0].href = '';
-
-    menuArray[1].id = 'bbqChickenDiv';
-    menuArray[1].firstChild.src = '../src/assets/images/BBQ-chicken-pizza-1.png';
-    menuArray[1].lastChild.innerText = 'BBQ Chicken Pizza';
-    menuArray[1].href = '';
-
-    menuArray[2].id = 'chickenPestoDiv';
-    menuArray[2].firstChild.src = '../src/assets/images/chicken-pesto-pizza.png';
-    menuArray[2].lastChild.innerText = 'Chicken Pesto Pizza';
-    menuArray[2].href = '';
-
-    menuArray[3].id = 'meatLoversDiv';
-    menuArray[3].firstChild.src = '../src/assets/images/meat-lover-pizza.png';
-    menuArray[3].lastChild.innerText = 'Meat Lovers Pizza';
-    menuArray[3].href = '';
-    
-    menuArray[4].id = 'spiroSpecialDiv';
-    menuArray[4].firstChild.src = '../src/assets/images/spiro-special.png';
-    menuArray[4].lastChild.innerText = 'Spiro Special Pizza';
-    menuArray[4].href = '';
-    
-    menuArray[5].id = 'sweetAndSpicyDiv';
-    menuArray[5].firstChild.src = '../src/assets/images/SWEETSPICY.png';
-    menuArray[5].lastChild.innerText = 'Sweet and Spicy Pizza';
-    menuArray[5].href = '';
-    
-    menuArray[6].id = 'veggieSpecialDiv';
-    menuArray[6].firstChild.src = '../src/assets/images/veggie-special.png';
-    menuArray[6].lastChild.innerText = 'Veggie Special Pizza';
-    menuArray[6].href = '';
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuContent);
 
 /***/ }),
 
@@ -18406,7 +18409,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _resizeContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./resizeContent */ "./src/resizeContent.js");
 /* harmony import */ var _makeHeaderElements__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./makeHeaderElements */ "./src/makeHeaderElements.js");
 /* harmony import */ var _linkListeners__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./linkListeners */ "./src/linkListeners.js");
-/* harmony import */ var _homeContent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./homeContent */ "./src/homeContent.js");
+/* harmony import */ var _addHomeContent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./addHomeContent */ "./src/addHomeContent.js");
 
 
 
@@ -18418,7 +18421,7 @@ __webpack_require__.r(__webpack_exports__);
 (0,_addPageBaseElements__WEBPACK_IMPORTED_MODULE_1__["default"])();
 (0,_makeHeaderElements__WEBPACK_IMPORTED_MODULE_3__["default"])();
 (0,_resizeContent__WEBPACK_IMPORTED_MODULE_2__["default"])();
-(0,_homeContent__WEBPACK_IMPORTED_MODULE_5__["default"])();
+(0,_addHomeContent__WEBPACK_IMPORTED_MODULE_5__["default"])();
 (0,_linkListeners__WEBPACK_IMPORTED_MODULE_4__["default"])();
 
 

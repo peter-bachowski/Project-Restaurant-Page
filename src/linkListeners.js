@@ -1,6 +1,6 @@
-import homeContent from './homeContent';
-import menuContent from './menuContent';
-import aboutContent from './aboutContent';
+import homeContent from './addHomeContent';
+import addMenuContent from './addMenuContent';
+import addAboutContent from './addAboutContent';
 
 function linkListeners () {
     const homeLink = document.querySelector('.homeLink');
@@ -18,14 +18,14 @@ function linkListeners () {
     menuLink.addEventListener('click', () => {
         removeSelectedLinkClass();
         removeContent();
-        menuContent();
+        addMenuContent();
         menuLink.classList.add('selectedLink');
     });
 
     aboutLink.addEventListener('click', () => {
         removeSelectedLinkClass();
         removeContent();
-        aboutContent();
+        addAboutContent();
         aboutLink.classList.add('selectedLink');
     });
 

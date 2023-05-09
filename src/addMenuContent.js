@@ -1,4 +1,4 @@
-function menuContent () {
+function addMenuContent () {
 
     const menuSize = 7;
     let menuArray = [];
@@ -56,4 +56,4 @@ function menuContent () {
     menuArray[6].href = '';
 }
 
-export default menuContent;
+export default addMenuContent;

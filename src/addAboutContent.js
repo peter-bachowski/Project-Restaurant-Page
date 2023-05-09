@@ -1,10 +1,13 @@
-function aboutContent () {
+function addAboutContent () {
     const aboutLink = document.querySelector('.aboutLink');
     const aboutContentDiv = document.createElement('div');
     const mainContent2 = document.querySelector('#mainContent2');
     const aboutPar1 = document.createElement('div');
     const aboutPar2 = document.createElement('div');
+    const mainContent1 = document.getElementById('mainContent1');
 
+    mainContent1.style.backgroundImage = 'linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/restaurant.png);';
+    
     aboutLink.classList.add('selectedLink');
     aboutContentDiv.classList.add('aboutContentDiv');
 
@@ -17,4 +20,4 @@ function aboutContent () {
     mainContent2.appendChild(aboutContentDiv);
 }
 
-export default aboutContent;
+export default addAboutContent;

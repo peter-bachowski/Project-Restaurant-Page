@@ -3,13 +3,13 @@ import addPageBaseElements from './addPageBaseElements';
 import resizeContent from './resizeContent';
 import makeHeaderElements from './makeHeaderElements';
 import linkListeners from './linkListeners';
-import homeContent from './homeContent';
+import addHomeContent from './addHomeContent';
 
 
 addPageBaseElements();
 makeHeaderElements();
 resizeContent();
-homeContent();
+addHomeContent();
 linkListeners();
 
 

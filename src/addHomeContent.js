@@ -1,4 +1,4 @@
-function homeContent () {
+function addHomeContent () {
     const homeLink = document.querySelector('.homeLink');
     const homeContentDiv = document.createElement('div');
     const mainContent2 = document.querySelector('#mainContent2');
@@ -11,4 +11,4 @@ function homeContent () {
     mainContent2.appendChild(homeContentDiv);
 }
 
-export default homeContent;
+export default addHomeContent;
