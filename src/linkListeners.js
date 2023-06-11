@@ -37,8 +37,11 @@ function linkListeners () {
     }
 
     function removeContent () {
-        const content = document.querySelector('#mainContent2 :first-child');
-        mainContent2.removeChild(content);
+        const mainContent2 = document.getElementById('mainContent2');
+
+        while (mainContent2.firstChild) {
+            mainContent2.removeChild(mainContent2.firstChild);
+        }
     }
 }
 
