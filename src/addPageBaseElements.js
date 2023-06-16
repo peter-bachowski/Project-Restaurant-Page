@@ -3,7 +3,7 @@ import { doc } from "prettier";
 function addPageBaseElements () {
     const containerDiv = document.getElementById('container');
     const footer = document.createElement('div');
-    const mainContent1 = document.createElement('div');
+    const header = document.createElement('div');
     const mainContent2 = document.createElement('div');
 
     //elements for the footer
@@ -16,14 +16,14 @@ function addPageBaseElements () {
     const hoursInfoDiv = document.createElement('div');
     const copyrightDiv = document.createElement('div');
 
-    mainContent1.id = 'mainContent1';
-    mainContent2.id = 'mainContent2';
 
 
     locationInfoDiv.innerText = 'LOCATION\n\n\n\n12345 12th ave W\n\nLynnwood, WA 98087\n\n(123)456-7890';
     hoursInfoDiv.innerText = 'HOURS\n\n\n\nMonday through Sunday\n\n11am to 9pm';
     copyrightDiv.innerText = 'Copyright © Slice of Seattle | Made by Peter Bachowski';
 
+    header.classList.add('header');
+    mainContent2.classList.add('mainContent2');
     footer.classList.add('footer');
 
     mediaLinksDiv.classList.add('mediaLinksDiv');
@@ -46,7 +46,7 @@ function addPageBaseElements () {
     footer.appendChild(infoContainer);
     footer.appendChild(copyrightDiv);
     
-    containerDiv.appendChild(mainContent1);
+    containerDiv.appendChild(header);
     containerDiv.appendChild(mainContent2);
     containerDiv.appendChild(footer);
 }

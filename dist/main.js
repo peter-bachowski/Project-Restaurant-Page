@@ -22,15 +22,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/pizza-background.jpg */ "./src/assets/images/pizza-background.jpg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/space-needle.png */ "./src/assets/images/space-needle.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/homeHeaderPic.jpg */ "./src/assets/images/homeHeaderPic.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/menuHeaderPic.jpg */ "./src/assets/images/menuHeaderPic.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/aboutHeaderPic.jpg */ "./src/assets/images/aboutHeaderPic.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/space-needle.png */ "./src/assets/images/space-needle.png"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);"]);
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://www.1001fonts.com/metropolis-font.html);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: \"metropolis\", sans-serif;\n}\n\nhtml, body, #container {\n  min-width: 375px;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer {\n  width: 100%;\n  background-color: #3b3430;\n  min-height: 350px;\n  max-height: 500px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 20%;\n  color: #f4f4f4;\n  position: relative;\n}\n\n.footer > * {\n  margin: 10px;\n}\n\n.copyrightDiv {\n  position: absolute;\n  bottom: 0;\n  color: #5e5956;\n}\n\n#mainContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  color: #f4f4f4;\n}\n\n#mainContent2 {\n  display: flex;\n  padding: 5px;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center;\n}\n\n.navBar {\n  justify-content: space-between;\n  padding-left: 70px;\n  padding-right: 70px;\n  padding-top: 20px;\n  align-items: center;\n}\n\n.navMenu {\n  justify-content: center;\n  gap: 30px;\n  font-size: 20px;\n}\n\n.navMenu > div {\n  text-decoration: none;\n  color: inherit;\n  padding: 10px;\n  background: rgba(59, 52, 48, 0.8784313725);\n  cursor: pointer;\n}\n\ndiv.selectedLink {\n  background: rgba(244, 244, 244, 0.8745098039);\n  color: black;\n}\n\n.pageTitle {\n  font-size: 20px;\n  font-weight: 700;\n  margin-right: 20px;\n}\n\n.logo {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: 100%;\n  width: 50px;\n  height: 50px;\n}\n\n.logoAndTitleCont {\n  gap: 20px;\n}\n\n.gridContainer {\n  padding: 50px;\n  display: inline-grid;\n  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n  grid-gap: 30px;\n  width: 100%;\n  height: auto;\n  justify-items: center;\n}\n\n.gridContainer > a {\n  color: inherit;\n  text-decoration: none;\n}\n\n.menuElement {\n  width: 250px;\n  height: 250px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.menuElement :last-child {\n  text-align: center;\n}\n\n.mediaLinksDiv > * {\n  width: 50px;\n  height: 50px;\n}\n\n.mediaLinksDiv {\n  width: 100%;\n  justify-content: center;\n}\n\n.infoContainer {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n.homeContentDiv, .aboutContentDiv {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n  width: 100%;\n  min-height: 300px;\n  gap: 20px;\n  flex-direction: column;\n}\n\n.aboutContentDiv div {\n  padding: 20px 30%;\n  width: 100%;\n  font-size: 20px;\n  text-indent: 30px;\n}\n\n#aboutContentImg {\n  padding: 100px 30px;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAcA;EACI,sBAAA;EACA,qCAAA;AAXJ;;AAcA;EACI,gBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;AAXJ;;AAcA;EACI,WAAA;EACA,yBA1BY;EA2BZ,iBAAA;EACA,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,cAjCc;EAkCd,kBAAA;AAXJ;;AAcA;EACI,YAAA;AAXJ;;AAcA;EACI,kBAAA;EACA,SAAA;EACA,cAAA;AAXJ;;AAcA;EACI,oHAAA;EACA,0BAAA;EACA,4BAAA;EACA,cAnDc;AAwClB;;AAcA;EACI,aAAA;EACA,YAAA;AAXJ;;AAcA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;EACA,mBAAA;AAXJ;;AAcA;EACI,8BAAA;EACA,kBAhEW;EAiEX,mBAjEW;EAkEX,iBAAA;EACA,mBAAA;AAXJ;;AAcA;EACI,uBAAA;EACA,SAAA;EACA,eAAA;AAXJ;;AAcA;EACI,qBAAA;EACA,cAAA;EACA,aAAA;EACA,0CA5E6B;EA6E7B,eAAA;AAXJ;;AAcA;EACI,6CAnFyB;EAoFzB,YAnFc;AAwElB;;AAcA;EACI,eAAA;EACA,gBAAA;EACA,kBAAA;AAXJ;;AAcA;EACI,yDAAA;EACA,qBAAA;EACA,WAAA;EACA,YAAA;AAXJ;;AAcA;EACI,SAAA;AAXJ;;AAcA;EACI,aAAA;EACA,oBAAA;EACA,4DAAA;EACA,cAAA;EACA,WAAA;EACA,YAAA;EACA,qBAAA;AAXJ;;AAcA;EACI,cAAA;EACA,qBAAA;AAXJ;;AAcA;EACI,YAzHkB;EA0HlB,aA1HkB;EA2HlB,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AAXJ;;AAcA;EACI,kBAAA;AAXJ;;AAcA;EACI,WAAA;EACA,YAAA;AAXJ;;AAcA;EACI,WAAA;EACA,uBAAA;AAXJ;;AAcA;EACI,WAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;AAXJ;;AAcA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,WAAA;EACA,iBAAA;EACA,SAAA;EACA,sBAAA;AAXJ;;AAcA;EACI,iBAAA;EACA,WAAA;EACA,eAAA;EACA,iBAAA;AAXJ;;AAcA;EACI,mBAAA;AAXJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n@import url('https://www.1001fonts.com/metropolis-font.html');\n\n$primary-color: #3b3430;\n$secondary-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n$side-padding: 70px;\n$menu-Item-Dimension: 250px;\n$main-Link-Background-Color: #f4f4f4df;\n$main-Link-Color: black;\n$secondar-Link-Background-Color: #3b3430e0;\n\n* {\n    box-sizing: border-box;\n    font-family: 'metropolis', sans-serif;\n}\n\nhtml, body, #container {\n    min-width: 375px;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.footer {\n    width: 100%;\n    background-color: $primary-color;\n    min-height: 350px;\n    max-height: 500px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 20%;\n    color: $secondary-color;\n    position: relative;\n}\n\n.footer > * {\n    margin: 10px;\n}\n\n.copyrightDiv {\n    position: absolute;\n    bottom: 0;\n    color: #5e5956;\n}\n\n#mainContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    color: $secondary-color;\n}\n\n#mainContent2 {\n    display: flex;\n    padding: 5px;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n}\n\n.navBar {\n    justify-content: space-between;\n    padding-left: $side-padding;\n    padding-right: $side-padding;\n    padding-top: $side-padding - 50px;\n    align-items: center;\n}\n\n.navMenu {\n    justify-content: center;\n    gap: 30px;\n    font-size: 20px;\n}\n\n.navMenu > div {\n    text-decoration: none;\n    color: inherit;\n    padding: 10px;\n    background: $secondar-Link-Background-Color;\n    cursor: pointer;\n}\n\ndiv.selectedLink {\n    background: $main-Link-Background-Color;\n    color: $main-Link-Color;\n}\n\n.pageTitle {\n    font-size: 20px;\n    font-weight: 700;\n    margin-right: 20px;\n}\n\n.logo {\n    background-image: url('../assets/images/space-needle.png');\n    background-size: 100%;\n    width: 50px;\n    height: 50px;\n}\n\n.logoAndTitleCont {\n    gap: 20px;\n}\n\n.gridContainer {\n    padding: 50px;\n    display: inline-grid;\n    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n    grid-gap: 30px;\n    width: 100%;\n    height: auto;\n    justify-items: center;\n}\n\n.gridContainer > a {\n    color: inherit;\n    text-decoration: none;\n}\n\n.menuElement {\n    width: $menu-Item-Dimension;\n    height: $menu-Item-Dimension;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    gap: 10px;\n}\n\n.menuElement :last-child {\n    text-align: center;\n}\n\n.mediaLinksDiv > * {\n    width: 50px;\n    height: 50px;\n}\n\n.mediaLinksDiv {\n    width: 100%;\n    justify-content: center;\n}\n\n.infoContainer {\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n}\n\n.homeContentDiv, .aboutContentDiv {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100%;\n    width: 100%;\n    min-height: 300px;\n    gap: 20px;\n    flex-direction: column;\n}\n\n.aboutContentDiv div {\n    padding: 20px 30%;\n    width: 100%;\n    font-size: 20px;\n    text-indent: 30px;\n}\n\n#aboutContentImg {\n    padding: 100px 30px;\n}\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: \"metropolis\", sans-serif;\n}\n\nhtml, body, #container {\n  min-width: 375px;\n  padding: 0;\n  margin: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n.copyrightDiv {\n  position: absolute;\n  bottom: 0;\n  color: #5e5956;\n}\n\n.header {\n  background-size: 100% auto;\n  background-repeat: no-repeat;\n  color: #f4f4f4;\n  background-position-y: center;\n}\n\n#homeContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n#menuContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.6)), url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n#aboutContent1 {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n.mainContent2 {\n  display: flex;\n  padding: 5px;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: center;\n}\n\n.navBar {\n  justify-content: space-between;\n  padding-left: 70px;\n  padding-right: 70px;\n  padding-top: 20px;\n  align-items: center;\n}\n\n.navMenu {\n  justify-content: center;\n  gap: 30px;\n  font-size: 20px;\n}\n\n.navMenu > div, .orderLink {\n  text-decoration: none;\n  color: inherit;\n  padding: 10px;\n  background: rgba(59, 52, 48, 0.8784313725);\n  cursor: pointer;\n}\n\n.orderLink {\n  background: rgb(223, 30, 30);\n}\n\ndiv.selectedLink {\n  background: rgba(244, 244, 244, 0.8745098039);\n  color: black;\n}\n\n.pageTitle {\n  font-size: 20px;\n  font-weight: 700;\n  margin-right: 20px;\n}\n\n.logo {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n  background-size: 100%;\n  width: 50px;\n  height: 50px;\n}\n\n.logoAndTitleCont {\n  gap: 20px;\n}\n\n.gridContainer {\n  padding: 50px;\n  display: inline-grid;\n  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n  grid-gap: 30px;\n  width: 100%;\n  height: auto;\n  justify-items: center;\n}\n\n.gridContainer > a {\n  color: inherit;\n  text-decoration: none;\n}\n\n.menuElement {\n  width: 250px;\n  height: 250px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.menuElement :last-child {\n  text-align: center;\n}\n\n.mediaLinksDiv > * {\n  width: 50px;\n  height: 50px;\n}\n\n.mediaLinksDiv {\n  width: 100%;\n  justify-content: center;\n}\n\n.infoContainer {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n}\n\n.homeContentDiv, .aboutContentDiv {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n  width: 100%;\n  min-height: 300px;\n  gap: 20px;\n  flex-direction: column;\n}\n\n.aboutContentDiv div {\n  padding: 20px 30%;\n  width: 100%;\n  font-size: 20px;\n  text-indent: 30px;\n}\n\n#aboutContentImg {\n  padding: 100px 30px;\n}\n\n.footer {\n  width: 100%;\n  background-color: #3b3430;\n  min-height: 350px;\n  max-height: 500px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 20%;\n  color: #f4f4f4;\n  position: relative;\n}\n\n.footer > * {\n  margin: 10px;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAcA;EACI,sBAAA;EACA,qCAAA;AAXJ;;AAcA;EACI,gBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;AAXJ;;AAcA;EACI,kBAAA;EACA,SAAA;EACA,cAAA;AAXJ;;AAcA;EACI,0BAAA;EACA,4BAAA;EACA,cAhCe;EAiCf,6BAAA;AAXJ;;AAcA;EACI,oHAAA;AAXJ;;AAeA;EACI,mHAAA;AAZJ;;AAeA;EACI,oHAAA;AAZJ;;AAeA;EACI,aAAA;EACA,YAAA;AAZJ;;AAeA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;EACA,mBAAA;AAZJ;;AAeA;EACI,8BAAA;EACA,kBA3DW;EA4DX,mBA5DW;EA6DX,iBAAA;EACA,mBAAA;AAZJ;;AAeA;EACI,uBAAA;EACA,SAAA;EACA,eAAA;AAZJ;;AAeA;EACI,qBAAA;EACA,cAAA;EACA,aAAA;EACA,0CAvE8B;EAwE9B,eAAA;AAZJ;;AAeA;EACI,4BAAA;AAZJ;;AAeA;EACI,6CAlFyB;EAmFzB,YAlFc;AAsElB;;AAeA;EACI,eAAA;EACA,gBAAA;EACA,kBAAA;AAZJ;;AAeA;EACI,yDAAA;EACA,qBAAA;EACA,WAAA;EACA,YAAA;AAZJ;;AAeA;EACI,SAAA;AAZJ;;AAeA;EACI,aAAA;EACA,oBAAA;EACA,4DAAA;EACA,cAAA;EACA,WAAA;EACA,YAAA;EACA,qBAAA;AAZJ;;AAeA;EACI,cAAA;EACA,qBAAA;AAZJ;;AAeA;EACI,YAxHkB;EAyHlB,aAzHkB;EA0HlB,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;AAZJ;;AAeA;EACI,kBAAA;AAZJ;;AAeA;EACI,WAAA;EACA,YAAA;AAZJ;;AAeA;EACI,WAAA;EACA,uBAAA;AAZJ;;AAeA;EACI,WAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;AAZJ;;AAeA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,WAAA;EACA,iBAAA;EACA,SAAA;EACA,sBAAA;AAZJ;;AAeA;EACI,iBAAA;EACA,WAAA;EACA,eAAA;EACA,iBAAA;AAZJ;;AAeA;EACI,mBAAA;AAZJ;;AAeA;EACI,WAAA;EACA,yBApLY;EAqLZ,iBAAA;EACA,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,cA3Le;EA4Lf,kBAAA;AAZJ;;AAeA;EACI,YAAA;AAZJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\n@import url('https://www.1001fonts.com/metropolis-font.html');\n\n$primary-color: #3b3430;\n$secondaryy-color: #f4f4f4;\n$box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);\n$background-width: 100%;\n$content-height: 500px;\n$side-padding: 70px;\n$menu-Item-Dimension: 250px;\n$main-Link-Background-Color: #f4f4f4df;\n$main-Link-Color: black;\n$secondary-Link-Background-Color: #3b3430e0;\n\n* {\n    box-sizing: border-box;\n    font-family: 'metropolis', sans-serif;\n}\n\nhtml, body, #container {\n    min-width: 375px;\n    padding: 0;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.copyrightDiv {\n    position: absolute;\n    bottom: 0;\n    color: #5e5956;\n}\n\n.header {\n    background-size: $background-width auto;\n    background-repeat: no-repeat;\n    color: $secondaryy-color;\n    background-position-y: center;\n}\n\n#homeContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/homeHeaderPic.jpg);\n\n}\n\n#menuContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.6)), url(../assets/images/menuHeaderPic.jpg);\n}\n\n#aboutContent1 {\n    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/aboutHeaderPic.jpg);\n}\n\n.mainContent2 {\n    display: flex;\n    padding: 5px;\n}\n\n.navBar, .navMenu, .logoAndTitleCont {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n}\n\n.navBar {\n    justify-content: space-between;\n    padding-left: $side-padding;\n    padding-right: $side-padding;\n    padding-top: $side-padding - 50px;\n    align-items: center;\n}\n\n.navMenu {\n    justify-content: center;\n    gap: 30px;\n    font-size: 20px;\n}\n\n.navMenu > div, .orderLink {\n    text-decoration: none;\n    color: inherit;\n    padding: 10px;\n    background: $secondary-Link-Background-Color;\n    cursor: pointer;\n}\n\n.orderLink {\n    background: rgb(223, 30, 30);\n}\n\ndiv.selectedLink {\n    background: $main-Link-Background-Color;\n    color: $main-Link-Color;\n}\n\n.pageTitle {\n    font-size: 20px;\n    font-weight: 700;\n    margin-right: 20px;\n}\n\n.logo {\n    background-image: url('../assets/images/space-needle.png');\n    background-size: 100%;\n    width: 50px;\n    height: 50px;\n}\n\n.logoAndTitleCont {\n    gap: 20px;\n}\n\n.gridContainer {\n    padding: 50px;\n    display: inline-grid;\n    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n    grid-gap: 30px;\n    width: 100%;\n    height: auto;\n    justify-items: center;\n}\n\n.gridContainer > a {\n    color: inherit;\n    text-decoration: none;\n}\n\n.menuElement {\n    width: $menu-Item-Dimension;\n    height: $menu-Item-Dimension;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    gap: 10px;\n}\n\n.menuElement :last-child {\n    text-align: center;\n}\n\n.mediaLinksDiv > * {\n    width: 50px;\n    height: 50px;\n}\n\n.mediaLinksDiv {\n    width: 100%;\n    justify-content: center;\n}\n\n.infoContainer {\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n}\n\n.homeContentDiv, .aboutContentDiv {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100%;\n    width: 100%;\n    min-height: 300px;\n    gap: 20px;\n    flex-direction: column;\n}\n\n.aboutContentDiv div {\n    padding: 20px 30%;\n    width: 100%;\n    font-size: 20px;\n    text-indent: 30px;\n}\n\n#aboutContentImg {\n    padding: 100px 30px;\n}\n\n.footer {\n    width: 100%;\n    background-color: $primary-color;\n    min-height: 350px;\n    max-height: 500px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 20%;\n    color: $secondaryy-color;\n    position: relative;\n}\n\n.footer > * {\n    margin: 10px;\n}\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -17876,14 +17880,13 @@ __webpack_require__.r(__webpack_exports__);
 function addAboutContent () {
     const aboutLink = document.querySelector('.aboutLink');
     const aboutContentDiv = document.createElement('div');
-    const mainContent2 = document.querySelector('#mainContent2');
+    const mainContent2 = document.querySelector('.mainContent2');
     const aboutPar1 = document.createElement('div');
     const aboutPar2 = document.createElement('div');
-    const mainContent1 = document.getElementById('mainContent1');
     const aboutContentImg = document.createElement('img');
-
-    mainContent1.style.backgroundImage = 'linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/restaurant.png);';
     
+    document.querySelector('.header').id = 'aboutContent1';
+
     aboutLink.classList.add('selectedLink');
     aboutContentDiv.classList.add('aboutContentDiv');
     aboutContentImg.id = 'aboutContentImg';
@@ -17917,7 +17920,9 @@ __webpack_require__.r(__webpack_exports__);
 function addHomeContent () {
     const homeLink = document.querySelector('.homeLink');
     const homeContentDiv = document.createElement('div');
-    const mainContent2 = document.querySelector('#mainContent2');
+    const mainContent2 = document.querySelector('.mainContent2');
+
+    document.querySelector('.header').id = 'homeContent1';
 
     homeLink.classList.add('selectedLink');
     homeContentDiv.classList.add('homeContentDiv');
@@ -17948,6 +17953,7 @@ function addMenuContent () {
     let menuArray = [];
 
     const gridContainer = document.createElement('div');
+    const mainContent2 = document.querySelector('.mainContent2');
     gridContainer.classList.add('gridContainer');
     mainContent2.appendChild(gridContainer);
 
@@ -17958,6 +17964,8 @@ function addMenuContent () {
     menuElement.appendChild(menuElementImg);
     menuElement.appendChild(menuElementTitle);
 
+    document.querySelector('.header').id = 'menuContent1';
+
     for (let i = 0; i < menuSize; i++){
         menuArray[i] = menuElement.cloneNode(true);
         menuArray[i].classList.add('menuElement');
@@ -17966,38 +17974,31 @@ function addMenuContent () {
 
     menuArray[0].id = 'chickenGarlicDiv';
     menuArray[0].firstChild.src = '../src/assets/images/chicken-alfredo.png';
-    menuArray[0].lastChild.innerText = 'Chicken Garlic Alfredo Pizza';
-    menuArray[0].href = '';
+    menuArray[0].lastChild.innerText = 'Chicken Garlic Alfredo Pizza\n$15.00';
 
     menuArray[1].id = 'bbqChickenDiv';
     menuArray[1].firstChild.src = '../src/assets/images/BBQ-chicken-pizza-1.png';
-    menuArray[1].lastChild.innerText = 'BBQ Chicken Pizza';
-    menuArray[1].href = '';
+    menuArray[1].lastChild.innerText = 'BBQ Chicken Pizza\n$15.00';
 
     menuArray[2].id = 'chickenPestoDiv';
     menuArray[2].firstChild.src = '../src/assets/images/chicken-pesto-pizza.png';
-    menuArray[2].lastChild.innerText = 'Chicken Pesto Pizza';
-    menuArray[2].href = '';
+    menuArray[2].lastChild.innerText = 'Chicken Pesto Pizza\n$15.00';
 
     menuArray[3].id = 'meatLoversDiv';
     menuArray[3].firstChild.src = '../src/assets/images/meat-lover-pizza.png';
-    menuArray[3].lastChild.innerText = 'Meat Lovers Pizza';
-    menuArray[3].href = '';
+    menuArray[3].lastChild.innerText = 'Meat Lovers Pizza\n$15.00';
     
     menuArray[4].id = 'spiroSpecialDiv';
     menuArray[4].firstChild.src = '../src/assets/images/spiro-special.png';
-    menuArray[4].lastChild.innerText = 'Spiro Special Pizza';
-    menuArray[4].href = '';
+    menuArray[4].lastChild.innerText = 'Spiro Special Pizza\n$15.00';
     
     menuArray[5].id = 'sweetAndSpicyDiv';
     menuArray[5].firstChild.src = '../src/assets/images/SWEETSPICY.png';
-    menuArray[5].lastChild.innerText = 'Sweet and Spicy Pizza';
-    menuArray[5].href = '';
+    menuArray[5].lastChild.innerText = 'Sweet and Spicy Pizza\n$15.00';
     
     menuArray[6].id = 'veggieSpecialDiv';
     menuArray[6].firstChild.src = '../src/assets/images/veggie-special.png';
-    menuArray[6].lastChild.innerText = 'Veggie Special Pizza';
-    menuArray[6].href = '';
+    menuArray[6].lastChild.innerText = 'Veggie Special Pizza\n$15.00';
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addMenuContent);
@@ -18022,7 +18023,7 @@ __webpack_require__.r(__webpack_exports__);
 function addPageBaseElements () {
     const containerDiv = document.getElementById('container');
     const footer = document.createElement('div');
-    const mainContent1 = document.createElement('div');
+    const header = document.createElement('div');
     const mainContent2 = document.createElement('div');
 
     //elements for the footer
@@ -18035,14 +18036,14 @@ function addPageBaseElements () {
     const hoursInfoDiv = document.createElement('div');
     const copyrightDiv = document.createElement('div');
 
-    mainContent1.id = 'mainContent1';
-    mainContent2.id = 'mainContent2';
 
 
     locationInfoDiv.innerText = 'LOCATION\n\n\n\n12345 12th ave W\n\nLynnwood, WA 98087\n\n(123)456-7890';
     hoursInfoDiv.innerText = 'HOURS\n\n\n\nMonday through Sunday\n\n11am to 9pm';
     copyrightDiv.innerText = 'Copyright © Slice of Seattle | Made by Peter Bachowski';
 
+    header.classList.add('header');
+    mainContent2.classList.add('mainContent2');
     footer.classList.add('footer');
 
     mediaLinksDiv.classList.add('mediaLinksDiv');
@@ -18065,7 +18066,7 @@ function addPageBaseElements () {
     footer.appendChild(infoContainer);
     footer.appendChild(copyrightDiv);
     
-    containerDiv.appendChild(mainContent1);
+    containerDiv.appendChild(header);
     containerDiv.appendChild(mainContent2);
     containerDiv.appendChild(footer);
 }
@@ -18096,7 +18097,7 @@ function linkListeners () {
     const homeLink = document.querySelector('.homeLink');
     const menuLink = document.querySelector('.menuLink');
     const aboutLink = document.querySelector('.aboutLink');
-    const mainContent2 = document.querySelector('#mainContent2');
+    const mainContent2 = document.querySelector('.mainContent2');
 
     homeLink.addEventListener('click', () => {
         removeSelectedLinkClass();
@@ -18127,7 +18128,7 @@ function linkListeners () {
     }
 
     function removeContent () {
-        const mainContent2 = document.getElementById('mainContent2');
+        const mainContent2 = document.querySelector('.mainContent2');
 
         while (mainContent2.firstChild) {
             mainContent2.removeChild(mainContent2.firstChild);
@@ -18154,6 +18155,7 @@ function makeHeaderElements () {
     const navBar = document.createElement('div');
     const navMenu = document.createElement('div');
     const pageTitle = document.createElement('div');
+    const orderLink = document.createElement('a');
     const homeLink = document.createElement('div');
     const menuLink = document.createElement('div');
     const aboutLink = document.createElement('div');
@@ -18163,6 +18165,8 @@ function makeHeaderElements () {
     navBar.classList.add('navBar');
     navMenu.classList.add('navMenu');
     pageTitle.classList.add('pageTitle');
+    orderLink.classList.add('orderLink');
+    orderLink.href = '';
     homeLink.classList.add('homeLink');
     menuLink.classList.add('menuLink');
     aboutLink.classList.add('aboutLink');
@@ -18172,15 +18176,17 @@ function makeHeaderElements () {
     pageTitle.innerText = 'Slice of Seattle';
     pageTitle.appendChild(logo);
 
+    orderLink.innerText = 'Order Now!'
     homeLink.innerText = 'Home';
     menuLink.innerText = 'Menu';
     aboutLink.innerText = 'About';
 
-    document.getElementById('mainContent1').appendChild(navBar);
+    document.querySelector('.header').appendChild(navBar);
 
     logoAndTitleCont.appendChild(logo);
     logoAndTitleCont.appendChild(pageTitle);
     navBar.appendChild(logoAndTitleCont);
+    navBar.appendChild(orderLink);
     navBar.appendChild(navMenu);
     navMenu.appendChild(homeLink);
     navMenu.appendChild(menuLink);
@@ -18211,11 +18217,12 @@ function resizeContent () {
 
     function resize () {
         const navBar = document.querySelector('.navBar');
+        const header = document.querySelector('.header');
         if (window.innerWidth <= 750) {
-            mainContent1.style.minHeight = '250px';
+            header.style.minHeight = '250px';
         }
         else {
-            mainContent1.style.minHeight = '500px';
+            header.style.minHeight = '500px';
         }
         if (window.innerWidth <= 647) {
             navBar.style.justifyContent = 'center';
@@ -18235,14 +18242,36 @@ function resizeContent () {
 
 /***/ }),
 
-/***/ "./src/assets/images/pizza-background.jpg":
-/*!************************************************!*\
-  !*** ./src/assets/images/pizza-background.jpg ***!
-  \************************************************/
+/***/ "./src/assets/images/aboutHeaderPic.jpg":
+/*!**********************************************!*\
+  !*** ./src/assets/images/aboutHeaderPic.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "b682917cb54b11e0932b.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/homeHeaderPic.jpg":
+/*!*********************************************!*\
+  !*** ./src/assets/images/homeHeaderPic.jpg ***!
+  \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 module.exports = __webpack_require__.p + "c424983ea6d69223b86d.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/menuHeaderPic.jpg":
+/*!*********************************************!*\
+  !*** ./src/assets/images/menuHeaderPic.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "ae379a6d0c16a73ab918.jpg";
 
 /***/ }),
 

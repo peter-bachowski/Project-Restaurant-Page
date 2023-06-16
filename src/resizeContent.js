@@ -4,11 +4,12 @@ function resizeContent () {
 
     function resize () {
         const navBar = document.querySelector('.navBar');
+        const header = document.querySelector('.header');
         if (window.innerWidth <= 750) {
-            mainContent1.style.minHeight = '250px';
+            header.style.minHeight = '250px';
         }
         else {
-            mainContent1.style.minHeight = '500px';
+            header.style.minHeight = '500px';
         }
         if (window.innerWidth <= 647) {
             navBar.style.justifyContent = 'center';

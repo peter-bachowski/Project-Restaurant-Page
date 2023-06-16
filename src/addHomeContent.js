@@ -1,7 +1,9 @@
 function addHomeContent () {
     const homeLink = document.querySelector('.homeLink');
     const homeContentDiv = document.createElement('div');
-    const mainContent2 = document.querySelector('#mainContent2');
+    const mainContent2 = document.querySelector('.mainContent2');
+
+    document.querySelector('.header').id = 'homeContent1';
 
     homeLink.classList.add('selectedLink');
     homeContentDiv.classList.add('homeContentDiv');

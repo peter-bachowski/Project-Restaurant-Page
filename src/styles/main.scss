@@ -2,7 +2,7 @@
 @import url('https://www.1001fonts.com/metropolis-font.html');
 
 $primary-color: #3b3430;
-$secondary-color: #f4f4f4;
+$secondaryy-color: #f4f4f4;
 $box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
 $background-width: 100%;
 $content-height: 500px;
@@ -10,7 +10,7 @@ $side-padding: 70px;
 $menu-Item-Dimension: 250px;
 $main-Link-Background-Color: #f4f4f4df;
 $main-Link-Color: black;
-$secondar-Link-Background-Color: #3b3430e0;
+$secondary-Link-Background-Color: #3b3430e0;
 
 * {
     box-sizing: border-box;
@@ -25,38 +25,33 @@ html, body, #container {
     flex-direction: column;
 }
 
-.footer {
-    width: 100%;
-    background-color: $primary-color;
-    min-height: 350px;
-    max-height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20%;
-    color: $secondary-color;
-    position: relative;
-}
-
-.footer > * {
-    margin: 10px;
-}
-
 .copyrightDiv {
     position: absolute;
     bottom: 0;
     color: #5e5956;
 }
 
-#mainContent1 {
-    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/pizza-background.jpg);
+.header {
     background-size: $background-width auto;
     background-repeat: no-repeat;
-    color: $secondary-color;
+    color: $secondaryy-color;
+    background-position-y: center;
 }
 
-#mainContent2 {
+#homeContent1 {
+    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/homeHeaderPic.jpg);
+
+}
+
+#menuContent1 {
+    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.6)), url(../assets/images/menuHeaderPic.jpg);
+}
+
+#aboutContent1 {
+    background-image: linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/aboutHeaderPic.jpg);
+}
+
+.mainContent2 {
     display: flex;
     padding: 5px;
 }
@@ -82,12 +77,16 @@ html, body, #container {
     font-size: 20px;
 }
 
-.navMenu > div {
+.navMenu > div, .orderLink {
     text-decoration: none;
     color: inherit;
     padding: 10px;
-    background: $secondar-Link-Background-Color;
+    background: $secondary-Link-Background-Color;
     cursor: pointer;
+}
+
+.orderLink {
+    background: rgb(223, 30, 30);
 }
 
 div.selectedLink {
@@ -178,5 +177,23 @@ div.selectedLink {
 
 #aboutContentImg {
     padding: 100px 30px;
+}
+
+.footer {
+    width: 100%;
+    background-color: $primary-color;
+    min-height: 350px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+    color: $secondaryy-color;
+    position: relative;
+}
+
+.footer > * {
+    margin: 10px;
 }
 

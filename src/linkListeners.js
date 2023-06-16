@@ -6,7 +6,7 @@ function linkListeners () {
     const homeLink = document.querySelector('.homeLink');
     const menuLink = document.querySelector('.menuLink');
     const aboutLink = document.querySelector('.aboutLink');
-    const mainContent2 = document.querySelector('#mainContent2');
+    const mainContent2 = document.querySelector('.mainContent2');
 
     homeLink.addEventListener('click', () => {
         removeSelectedLinkClass();
@@ -37,7 +37,7 @@ function linkListeners () {
     }
 
     function removeContent () {
-        const mainContent2 = document.getElementById('mainContent2');
+        const mainContent2 = document.querySelector('.mainContent2');
 
         while (mainContent2.firstChild) {
             mainContent2.removeChild(mainContent2.firstChild);

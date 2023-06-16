@@ -1,14 +1,13 @@
 function addAboutContent () {
     const aboutLink = document.querySelector('.aboutLink');
     const aboutContentDiv = document.createElement('div');
-    const mainContent2 = document.querySelector('#mainContent2');
+    const mainContent2 = document.querySelector('.mainContent2');
     const aboutPar1 = document.createElement('div');
     const aboutPar2 = document.createElement('div');
-    const mainContent1 = document.getElementById('mainContent1');
     const aboutContentImg = document.createElement('img');
-
-    mainContent1.style.backgroundImage = 'linear-gradient(rgb(0,0,0,0.25),rgb(0,0,0,0.25)), url(../assets/images/restaurant.png);';
     
+    document.querySelector('.header').id = 'aboutContent1';
+
     aboutLink.classList.add('selectedLink');
     aboutContentDiv.classList.add('aboutContentDiv');
     aboutContentImg.id = 'aboutContentImg';
