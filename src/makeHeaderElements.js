@@ -8,6 +8,7 @@ function makeHeaderElements () {
     const aboutLink = document.createElement('div');
     const logoAndTitleCont = document.createElement('div');
     const logo = document.createElement('div');
+    const linkContainer = document.createElement('div');
 
     navBar.classList.add('navBar');
     navMenu.classList.add('navMenu');
@@ -19,6 +20,7 @@ function makeHeaderElements () {
     aboutLink.classList.add('aboutLink');
     logo.classList.add('logo');
     logoAndTitleCont.classList.add('logoAndTitleCont');
+    linkContainer.classList.add('linkContainer');
 
     pageTitle.innerText = 'Slice of Seattle';
     pageTitle.appendChild(logo);
@@ -33,8 +35,9 @@ function makeHeaderElements () {
     logoAndTitleCont.appendChild(logo);
     logoAndTitleCont.appendChild(pageTitle);
     navBar.appendChild(logoAndTitleCont);
-    navBar.appendChild(orderLink);
-    navBar.appendChild(navMenu);
+    navBar.appendChild(linkContainer);
+    linkContainer.appendChild(orderLink);
+    linkContainer.appendChild(navMenu);
     navMenu.appendChild(homeLink);
     navMenu.appendChild(menuLink);
     navMenu.appendChild(aboutLink);

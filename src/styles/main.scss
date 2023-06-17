@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://www.1001fonts.com/metropolis-font.html');
 
 $primary-color: #3b3430;
 $secondaryy-color: #f4f4f4;
@@ -14,7 +13,7 @@ $secondary-Link-Background-Color: #3b3430e0;
 
 * {
     box-sizing: border-box;
-    font-family: 'metropolis', sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
 html, body, #container {
@@ -54,6 +53,7 @@ html, body, #container {
 .mainContent2 {
     display: flex;
     padding: 5px;
+    min-height: 400px;
 }
 
 .navBar, .navMenu, .logoAndTitleCont {
@@ -69,12 +69,29 @@ html, body, #container {
     padding-right: $side-padding;
     padding-top: $side-padding - 50px;
     align-items: center;
+    position: relative;
 }
 
-.navMenu {
+.logo {
+    background-image: url('../assets/images/space-needle.png');
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.logoAndTitleCont {
+    gap: 20px;
+}
+
+.navMenu, .linkContainer {
     justify-content: center;
     gap: 30px;
     font-size: 20px;
+}
+
+.linkContainer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .navMenu > div, .orderLink {
@@ -98,17 +115,6 @@ div.selectedLink {
     font-size: 20px;
     font-weight: 700;
     margin-right: 20px;
-}
-
-.logo {
-    background-image: url('../assets/images/space-needle.png');
-    background-size: 100%;
-    width: 50px;
-    height: 50px;
-}
-
-.logoAndTitleCont {
-    gap: 20px;
 }
 
 .gridContainer {
@@ -169,7 +175,7 @@ div.selectedLink {
 }
 
 .aboutContentDiv div {
-    padding: 20px 30%;
+    padding: 20px 20px;
     width: 100%;
     font-size: 20px;
     text-indent: 30px;
@@ -177,6 +183,11 @@ div.selectedLink {
 
 #aboutContentImg {
     padding: 100px 30px;
+    background-image: url('../assets/images/homeHeaderPic.jpg');
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    width: 500px;
 }
 
 .footer {
